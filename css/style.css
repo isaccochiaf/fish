@@ -164,7 +164,7 @@ src: url(../font/Archive.otf);
 }
 
 
-#title {letter-spacing:7px;}
+
 #title strong {color: #c0392b}
 
 #small-text { font-size:120%; color:#999}
@@ -227,6 +227,7 @@ input[type="range"]::-webkit-slider-thumb {
 }
 
 /*____________________Typorgaphy________________*/
+
 
 
 .head-introduction {
