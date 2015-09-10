@@ -49,7 +49,8 @@ src: url(../font/Archive.otf);
 
 
 
-.parallax{ padding-top: 35%;
+.parallax{ margin: 150px 0;
+            padding-top: 35%;
             width: 100%;
             float: right;
             margin-left: 0;

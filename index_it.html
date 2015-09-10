@@ -1,155 +1,173 @@
 <!doctype html>
 <html class="no-js" lang="en">
-  <head>
-      
- 	<!--[if lt IE 9]>
+
+<head>
+
+    <!--[if lt IE 9]>
   	<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
   	<script src="//s3.amazonaws.com/nwapi/nwmatcher/nwmatcher-1.2.5-min.js"></script>
   	<script src="//html5base.googlecode.com/svn-history/r38/trunk/js/selectivizr-1.0.3b.js"></script>
   	<script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.1.0/respond.min.js"></script>
 	<![endif]-->
-      
+
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      
-  
-	
-	
-    
-      <title>Fish for Cheap</title>
-      <meta name="Title" content="Fish for Cheap" />
-      <meta name="og:title" content="Fish for Cheap" />
-      <meta name="description" content="L’Italia è il terzo produttore mondiale di pomodori. Ogni anno migliaia di tonnellate di pomodori sono raccolti da migranti africani. I principali mercati per i pomodori italiani: Europa e Africa." />
-      <meta name="og:description" content="L’Italia è il terzo produttore mondiale di pomodori. Ogni anno migliaia di tonnellate di pomodori sono raccolti da migranti africani. I principali mercati per i pomodori italiani: Europa e Africa." />
-      <meta name="og:image" content="http://www.internazionale.it/webdoc/tomato/img/poster.jpg" />
-      <link rel="image_src" href="http://www.internazionale.it/webdoc/tomato/img/poster.jpg" />
-      
-      <meta name="keywords" content="tomato,paste,italian,infestigation,journalism,grant,ejc,liberti,auvillain,ottaviani,chiaf">
-      <meta name="robots" content="index,follow">
-      
-      <link rel="stylesheet" href="css/foundation.css" />
-      <script src="js/modernizr.js"></script>
-      <link href='http://fonts.googleapis.com/css?family=Quattrocento:400,700' rel='stylesheet' type='text/css'>
-      <script src="js/jquery.js"></script>
-      <script src="http://ricostacruz.com/jquery.transit/jquery.transit.js"></script>
-      <link rel="stylesheet" href="css/font-awesome.min.css">
-      <link rel="stylesheet" href="css/style.css">    
-      <link rel="stylesheet" href="css/font/stylesheet.css">  
-      <link rel="stylesheet" href="css/media-query.css">
-      <link href="video-js/video-js.css" rel="stylesheet">
-      <script src="video-js/video.js"></script> 
-      <style type="text/css">
+
+
+
+
+
+    <title>Fish for Cheap</title>
+    <meta name="Title" content="Fish for Cheap" />
+    <meta name="og:title" content="Fish for Cheap" />
+    <meta name="description" content="L’Italia è il terzo produttore mondiale di pomodori. Ogni anno migliaia di tonnellate di pomodori sono raccolti da migranti africani. I principali mercati per i pomodori italiani: Europa e Africa." />
+    <meta name="og:description" content="L’Italia è il terzo produttore mondiale di pomodori. Ogni anno migliaia di tonnellate di pomodori sono raccolti da migranti africani. I principali mercati per i pomodori italiani: Europa e Africa." />
+    <meta name="og:image" content="http://www.internazionale.it/webdoc/tomato/img/poster.jpg" />
+    <link rel="image_src" href="http://www.internazionale.it/webdoc/tomato/img/poster.jpg" />
+
+    <meta name="keywords" content="tomato,paste,italian,infestigation,journalism,grant,ejc,liberti,auvillain,ottaviani,chiaf">
+    <meta name="robots" content="index,follow">
+
+    <link rel="stylesheet" href="css/foundation.css" />
+    <script src="js/modernizr.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Quattrocento:400,700' rel='stylesheet' type='text/css'>
+    <script src="js/jquery.js"></script>
+    <script src="http://ricostacruz.com/jquery.transit/jquery.transit.js"></script>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/font/stylesheet.css">
+    <link rel="stylesheet" href="css/media-query.css">
+    <link href="video-js/video-js.css" rel="stylesheet">
+    <script src="video-js/video.js"></script>
+    <style type="text/css">
         .vjs-default-skin .vjs-play-progress,
-          .vjs-default-skin .vjs-volume-level { background-color: #6495b8 }
-        .vjs-default-skin .vjs-control-bar { font-size: 81% }
-      </style>
-      <script type="text/javascript">   
+        .vjs-default-skin .vjs-volume-level {
+            background-color: #6495b8
+        }
+        
+        .vjs-default-skin .vjs-control-bar {
+            font-size: 81%
+        }
+    </style>
+    <script type="text/javascript">
         $(function() {
             $("#tomato01").click(
-                function(){
-                    $("#block").transition({ marginLeft: '5%' }, 1000 );
+                function() {
+                    $("#block").transition({
+                        marginLeft: '5%'
+                    }, 1000);
                 });
-            
+
             $("#tomato02").click(
-                function(){
-                    $("#block").transition({ marginLeft: '30%'}, 1000 );
+                function() {
+                    $("#block").transition({
+                        marginLeft: '30%'
+                    }, 1000);
                 });
 
             $("#tomato03").click(
-                function(){
-                    $("#block").transition({ marginLeft: '55%'}, 1000 );
+                function() {
+                    $("#block").transition({
+                        marginLeft: '55%'
+                    }, 1000);
                 });
-   
+
             $("#tomato04").click(
-                function(){
-                    $("#block").transition({ marginLeft: '80%'}, 1000 );
+                function() {
+                    $("#block").transition({
+                        marginLeft: '80%'
+                    }, 1000);
                 });
         });
-           
-           
-           
-          $(function() {
-              var bar = $('#headerSlideContainer');
-              var top = bar.css('top');
-              $(window).scroll(function() {
-                  if($(this).scrollTop() > 500) {
-                      bar.stop().animate({'top' : '0px'}, 500);
-                  } else {
-                      bar.stop().animate({'top' : top}, 500);
-                  }
-              });
-          });
-           
-           
-        
-          $(function() {
-              var video = document.getElementById("video_1");
-              $(window).scroll(function() {
-                  if($(this).scrollTop() > 1 && $(this).scrollTop() < 90) {
-                      video.play();
-                  } 
-                  if($(this).scrollTop() > 400) {
-                      video.pause();
-                  }
-              });
-          });
-    
-          $(function() {
-              $(".show").click(            
-                  function(){
-                      $(".overlay-Big").fadeIn();
-                  }); 
-              $("#close").click(
-                  function(){
-                      $(".overlay-Big").fadeOut();
-                  });
-          });            
-           
-      </script>
-  
-      
-    </head>
-    <body>   
+
+
+
+        $(function() {
+            var bar = $('#headerSlideContainer');
+            var top = bar.css('top');
+            $(window).scroll(function() {
+                if ($(this).scrollTop() > 500) {
+                    bar.stop().animate({
+                        'top': '0px'
+                    }, 500);
+                } else {
+                    bar.stop().animate({
+                        'top': top
+                    }, 500);
+                }
+            });
+        });
+
+
+
+        $(function() {
+            var video = document.getElementById("video_1");
+            $(window).scroll(function() {
+                if ($(this).scrollTop() > 1 && $(this).scrollTop() < 90) {
+                    video.play();
+                }
+                if ($(this).scrollTop() > 400) {
+                    video.pause();
+                }
+            });
+        });
+
+        $(function() {
+            $(".show").click(
+                function() {
+                    $(".overlay-Big").fadeIn();
+                });
+            $("#close").click(
+                function() {
+                    $(".overlay-Big").fadeOut();
+                });
+        });
+    </script>
+
+
+</head>
+
+<body>
     <a id="top"></a>
-      <div class="header overlay-Big">
-          <a id="close" ><img src="img/overlay-close.png" width="40px">  </a>   
-          <div class="overlay-first-band">
-              <div class="row">
-                  <div class="medium-8 medium-centered columns">
-                  
-                     <a id="ref_fb"  href="http://www.facebook.com/sharer/sharer.php?s=100&amp;p[url]=http://www.internazionale.it/webdoc/tomato/index.html&amp;p[images][0]=http://www.internazionale.it/webdoc/tomato/img/poster.jpg&amp;p[title]=Creating Custom share buttons: Facebook, Twitter, Google+&amp;p[summary]=Build your custom share buttons from normal images with examples on each button" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=no,scrollbars=no,height=400,width=600'); return false;">
-              <img src="img/social_fb_w.png" width="25"> </a>
-              <a id="ref_tw" href="http://twitter.com/home?status=Fish for Cheap. Guarda il web documentario http://www.internazionale.it/webdoc/tomato %23DarkSideTomato su @Internazionale"  onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=no,scrollbars=no,height=400,width=600');return false;">
-              <img src="img/social_tw_w.png"  width="25"> </a>
-              
-              <a id="ref_gp" href="https://plus.google.com/share?url=http://www.internazionale.it/webdoc/tomato/"  onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=no,scrollbars=no,height=400,width=600');return false;">
-              
-              <img src="img/social_gl_w.png" width="25"> </a>
-                      
-                          <h4 style="color:#fff">Fish for Cheap</h4>
-                      
-                      
-                  </div>
-                  
-              </div>
-          </div>
-           
-          <div class="overlay-second-band">
-              <div class="row">
-              <div class="medium-8 medium-centered columns">
-                  <p>Un'inchiesta di <a href="https://twitter.com/abutiago" target="_blank">Stefano Liberti</a> realizzata grazie a The Innovation in Development Reporting Grant Programme dello European Journalism Center (EJC), finanziato dalla Bill e Melinda Gates Foundation.   
-                      <br /><br />
-                      Fotografie e video: Mario Poeta<br />
-                      Mappe e infografiche: <a href="https://twitter.com/jackottaviani" target="_blank"> Jacopo Ottaviani</a><br />
-                      Design e sviluppo: <a href="http://isaccochiaf.me" target="_blank">Isacco Chiaf</a>
- </p>
-               
-                  <hr>
-                  <p>Si ringrazia Greenpeace per le immagini della pesca di tonno in alto mare.</p>
-                  </div>
-              
-                  <br /> 
-                  <!--
+    <div class="header overlay-Big">
+        <a id="close"><img src="img/overlay-close.png" width="40px"> </a>
+        <div class="overlay-first-band">
+            <div class="row">
+                <div class="medium-8 medium-centered columns">
+
+                    <a id="ref_fb" href="http://www.facebook.com/sharer/sharer.php?s=100&amp;p[url]=http://www.internazionale.it/webdoc/tomato/index.html&amp;p[images][0]=http://www.internazionale.it/webdoc/tomato/img/poster.jpg&amp;p[title]=Creating Custom share buttons: Facebook, Twitter, Google+&amp;p[summary]=Build your custom share buttons from normal images with examples on each button" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=no,scrollbars=no,height=400,width=600'); return false;">
+                        <img src="img/social_fb_w.png" width="25"> </a>
+                    <a id="ref_tw" href="http://twitter.com/home?status=Fish for Cheap. Guarda il web documentario http://www.internazionale.it/webdoc/tomato %23DarkSideTomato su @Internazionale" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=no,scrollbars=no,height=400,width=600');return false;">
+                        <img src="img/social_tw_w.png" width="25"> </a>
+
+                    <a id="ref_gp" href="https://plus.google.com/share?url=http://www.internazionale.it/webdoc/tomato/" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=no,scrollbars=no,height=400,width=600');return false;">
+
+                        <img src="img/social_gl_w.png" width="25"> </a>
+
+                    <h4 style="color:#fff">Fish for Cheap</h4>
+
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="overlay-second-band">
+            <div class="row">
+                <div class="medium-8 medium-centered columns">
+                    <p>Un'inchiesta di <a href="https://twitter.com/abutiago" target="_blank">Stefano Liberti</a> realizzata grazie a The Innovation in Development Reporting Grant Programme dello European Journalism Center (EJC), finanziato dalla Bill e Melinda Gates Foundation.
+                        <br />
+                        <br /> Fotografie e video: Mario Poeta
+                        <br /> Mappe e infografiche: <a href="https://twitter.com/jackottaviani" target="_blank"> Jacopo Ottaviani</a>
+                        <br /> Design e sviluppo: <a href="http://isaccochiaf.me" target="_blank">Isacco Chiaf</a>
+                    </p>
+
+                    <hr>
+                    <p>Si ringrazia Greenpeace per le immagini della pesca di tonno in alto mare.</p>
+                </div>
+
+                <br />
+                <!--
                   <div class="medium-12 medium-centered columns">
                       
                      <div class="small-4 columns"> <img src="img/logo_int_02.png" > </div> 
@@ -158,514 +176,637 @@
                       <br /> <br />
                   </div>
               -->
-          </div>
-          </div>
-      </div>
-      
-      <div id="headerSlideContainer" class="target">
-          <div id="row">
-              <div id="logo-media" class="hide-for-small">   
-                  <a href="http://www.internazionale.it/">   <!--<img src="img/logo_int_02.png" width="150px">--></a>
-              </div>
-              <div class="small-4 medium-centered columns hide-for-small">
-                  <img src="img/logo_header.png" width="400px;">
-              </div>
-              <div class="small-2 columns show-for-small">
-                  <img class="show" src="img/social_open.png" width="25">
-              </div>
-          </div>
-
-          <div class="hide-for-small buttons-social">
-              
-             
-            
-              <a id="ref_fb"  href="http://www.facebook.com/sharer/sharer.php?s=100&amp;p[url]=http://www.internazionale.it/webdoc/tomato/index.html&amp;p[images][0]=http://isaccochiaf.me/tomato_dark_side/img/poster.jpg&amp;p[title]=Creating Custom share buttons: Facebook, Twitter, Google+&amp;p[summary]=Investigation on Italian tomato in Africa" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=no,scrollbars=no,height=400,width=600'); return false;">
-              <img src="img/social_fb.png" onmouseover="this.src='img/social_fb_h.png';" onmouseout="this.src='img/social_fb.png';" width="25"> </a>
-              <a id="ref_tw" href="http://twitter.com/home?status=Fish for Cheap. Guarda il web documentario http://www.internazionale.it/webdoc/tomato %23DarkSideTomato su @Internazionale"  onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=no,scrollbars=no,height=400,width=600');return false;">
-              <img src="img/social_tw.png" onmouseover="this.src='img/social_tw_h.png';"
-onmouseout="this.src='img/social_tw.png';" width="25"> </a>
-              
-              <a id="ref_gp" href="https://plus.google.com/share?url=http://www.internazionale.it/webdoc/tomato/"  onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=no,scrollbars=no,height=400,width=600');return false;">
-              
-              <img src="img/social_gl.png" onmouseover="this.src='img/social_gl_h.png';"
-onmouseout="this.src='img/social_gl.png';" width="25"> </a>
-             <img src="img/social_ab.png" class="show"  onmouseover="this.src='img/social_ab_h.png';"
-onmouseout="this.src='img/social_ab.png';" width="70">
-          </div>
-      </div> 
-   
-      <div id="row"> 
-          <br /><br />
-          <center><img src="img/logo.jpg"></center>             
-      </div>
-       
-      
-      
-        
-             <!------------------------------------------------------------  logo   -->
-                    
-                          
-            <div class="row">
-      
-                     <img src="img/poster.jpg">
             </div>
+        </div>
+    </div>
 
-                    
+    <div id="headerSlideContainer" class="target">
+        <div id="row">
+            <div id="logo-media" class="hide-for-small">
+                <a href="http://www.internazionale.it/">
+                    <!--<img src="img/logo_int_02.png" width="150px">--></a>
+            </div>
+            <div class="small-4 medium-centered columns hide-for-small">
+                <img src="img/logo_header.png" width="400px;">
+            </div>
+            <div class="small-2 columns show-for-small">
+                <img class="show" src="img/social_open.png" width="25">
+            </div>
+        </div>
 
-      
-      
-      <div class="row">
-          <br /><br /> <br /><br /> <br /><br />
-          <div class="medium-8 medium-centered columns">
-                <p id="small-text">Stefano Liberti <br /></p>
-                <p id="small-text-name">
-                    <b>Fotografie e video:</b> Mario Poeta<br />
-                    <b>Mappe e infografiche:</b> Jacopo Ottaviani<br />
-                    <b>Design e sviluppo:</b> Isacco Chiaf
-                    
+        <div class="hide-for-small buttons-social">
+
+
+
+            <a id="ref_fb" href="http://www.facebook.com/sharer/sharer.php?s=100&amp;p[url]=http://www.internazionale.it/webdoc/tomato/index.html&amp;p[images][0]=http://isaccochiaf.me/tomato_dark_side/img/poster.jpg&amp;p[title]=Creating Custom share buttons: Facebook, Twitter, Google+&amp;p[summary]=Investigation on Italian tomato in Africa" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=no,scrollbars=no,height=400,width=600'); return false;">
+                <img src="img/social_fb.png" onmouseover="this.src='img/social_fb_h.png';" onmouseout="this.src='img/social_fb.png';" width="25"> </a>
+            <a id="ref_tw" href="http://twitter.com/home?status=Fish for Cheap. Guarda il web documentario http://www.internazionale.it/webdoc/tomato %23DarkSideTomato su @Internazionale" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=no,scrollbars=no,height=400,width=600');return false;">
+                <img src="img/social_tw.png" onmouseover="this.src='img/social_tw_h.png';" onmouseout="this.src='img/social_tw.png';" width="25"> </a>
+
+            <a id="ref_gp" href="https://plus.google.com/share?url=http://www.internazionale.it/webdoc/tomato/" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=no,scrollbars=no,height=400,width=600');return false;">
+
+                <img src="img/social_gl.png" onmouseover="this.src='img/social_gl_h.png';" onmouseout="this.src='img/social_gl.png';" width="25"> </a>
+            <img src="img/social_ab.png" class="show" onmouseover="this.src='img/social_ab_h.png';" onmouseout="this.src='img/social_ab.png';" width="70">
+        </div>
+    </div>
+
+    <div id="row">
+        <br />
+        <br />
+        <center><img src="img/logo.jpg"></center>
+    </div>
+
+
+
+
+    <!------------------------------------------------------------  logo   -->
+
+
+    <div class="row">
+
+        <img src="img/poster.jpg">
+    </div>
+
+
+
+
+
+    <div class="row">
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <div class="medium-8 medium-centered columns">
+            <p id="small-text">Stefano Liberti
+                <br />
+            </p>
+            <p id="small-text-name">
+                <b>Fotografie e video:</b> Mario Poeta
+                <br />
+                <b>Mappe e infografiche:</b> Jacopo Ottaviani
+                <br />
+                <b>Design e sviluppo:</b> Isacco Chiaf
+
+            </p>
+            <hr>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <p> <span class="firstcharacter">I</span>ssa Fall ha l’aria affranta. «Anche oggi abbiamo preso ben poco, appena di che ripagarci la nafta». Pescatore dalla nascita e da «cinque generazioni», l’uomo esce in mare tutte le mattine alle 9 per tornare nel primo pomeriggio e vendere il pescato al mercato informale sulla spiaggia di Soumbedioune, alla periferia di Dakar. Una piccola baia sonnacchiosa che, ogni giorno dopo le 16, si anima tra uomini che scaricano casse, donne che gridano prezzi tra banchetti improvvisati, decine di avventori che tra le urla scelgono, soppesano, negoziano e comprano. Ma l’atmosfera è tutt’altro che festosa: tra le decine di pescatori che parcheggiano le piroghe si misura l’ampiezza di una crisi che da un po’ di tempo ha investito tutto il settore. I cesti sono mezzi vuoti, i visi lunghi. Finiti i fasti del passato: il mare non è più generoso come un tempo, «quando quasi si poteva pescare con le mani».
+                <br />
+            </p>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+        </div>
+    </div>
+
+    <!------------------------------------------------------------  video   -->
+
+
+    <div class="row">
+        <div class="flex-video widescreen vimeo">
+            <iframe src="https://player.vimeo.com/video/137066448" width="500" height="280" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        </div>
+    </div>
+
+
+    <!------------------------------------------------------------  video   -->
+
+
+    <div class="row">
+
+        <br />
+        <br />
+
+        <div class="medium-8 medium-centered columns">
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <p>
+                Fall, che svolge la funzione di portavoce della sua comunità, non ha dubbi: la colpa è delle navi straniere che sono venute a pescare nelle acque senegalesi, con il placet del governo centrale. «Prima sono venuti i russi e gli asiatici a saccheggiarci. Ora hanno riaperto il mare agli europei».
+                <br /> L’uomo è furioso contro il nuovo accordo che Dakar ha siglato con l’Unione Europea. Concluso nel novembre del 2014, prevede il rilascio di 36 licenze a 8 pescherecci con lenze a canna <i>(canneurs)</i>, 28 pescherecci con reti a circuizione <i>(senneurs)</i> che catturano prevalentemente il tonno. A questi si aggiungono due grandi navi da traino per la pesca profonda che prendono di mira il merluzzo nero. In cambio, il Senegal ottiene una «compensazione finanziaria» di 13,9 milioni di euro in totale per i cinque anni che copre l’accordo, il cui onere è ripartito tra l’Unione Europea (63%) e gli armatori (37%).
+
+            </p>
+        </div>
+    </div>
+
+    <!-- ---------------------------------------------------------Image Caption -->
+    <div class="row">
+        <div class="medium-8 medium-centered columns">
+            <hr>
+            <img src="img/citation_01_it.jpg">
+            <hr>
+        </div>
+    </div>
+    <!-- ---------------------------------------------------------Image Caption -->
+
+
+
+    <div class="row">
+        <div class="medium-8 medium-centered columns">
+            <br />
+            <p>
+                Condotti per diversi mesi in un clima che molti definiscono di scarsa trasparenza, questi accordi sono al centro del dibattito in un paese in cui il 17% della popolazione attiva lavora nel settore della pesca. Gli armatori europei rispondono alle critiche dei piccoli pescatori sostenendo che, a differenza di quanto avveniva in passato, oggi non c’è alcuna competizione tra i due tipi di pesca. «Questo accordo non è male. Riguarda principalmente il tonno, che non è quasi per niente catturato dalle piroghe», sostiene David Rigat, direttore generale della società CMNP, che gestisce gli interessi di alcuni armatori europei al porto di Dakar.
+                <br /> Sospeso nel 2006 proprio per un sovra-sfruttamento delle risorse ittiche, l’accordo è stato riattivato sotto una forma diversa: se quello precedente dava accesso alla totalità delle specie, quello in vigore oggi riguarda soprattutto i tonni e fa parte di una serie di intese bilaterali che permettono alle navi europee di seguire il tonno tropicale lungo il suo percorso migratorio nel golfo di Guinea, dall’Angola alla Mauritania.
+
+
+
+            </p>
+            <br />
+            <br />
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="medium-10 medium-centered columns">
+            <!-----------------------------------------------------------------------     MAPPA  -------------------- -->
+            <iframe width='100%' height='580' frameborder='0' src='https://internazionale.cartodb.com/viz/8a25f284-56e1-11e5-be3b-0e9d821ea90d/embed_map' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+            <!-----------------------------------------------------------------------     MAPPA  -------------------- -->
+        </div>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+    </div>
+
+    <!-- -----------------------------------------------------------------         PARALLAX -->
+    <div class="header">
+        <div class="cont hide-for-touch">
+            <div class="parallax overlay" id="parallax-01">
+                <q>Dobbiamo smetterla di svendere<br />le nostre materie prime</q>
+            </div>
+        </div>
+    </div>
+
+    <!-- -----------------------------------------------------------------         PARALLAX -->
+
+    <!-- -----------------------------------------------------------------         PARALLAX -->
+    <div class="header">
+        <div class="cont show-for-touch">
+            <img src="img/ch_01_parallax.jpg">
+        </div>
+    </div>
+
+    <!-- -----------------------------------------------------------------         PARALLAX -->
+
+
+
+
+
+    <!-------------------Chapter 02---------------------------------------------------->
+
+
+
+    <div class="row">
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <div class="medium-8 small-centered columns ">
+            <center>
+                <hr>
+                <h2>L'oceano conteso</h2>
+                <br/>
+                <br/>
+                <img src="img/boat.gif" width="250px">
+                <br/>
+                <br/>
+
+                <hr>
+            </center>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="medium-8 large-centered columns">
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="medium-8 medium-centered columns">
+            <br />
+            <br />
+            <br />
+            <br />
+            <p> <span class="firstcharacter">A</span>l molo 10 del porto di Dakar, nella sede della Sopasen, la società mista franco-senegalese che amministra, Adama Lam tuona: «Il governo si è piegato agli interessi stranieri». Vice-presidente del Gruppo degli armatori e degli industriali della pesca senegalesi (GAIPES), l’uomo parla senza mezzi termini di «neo-colonialismo». «Noi avevamo chiesto il rilascio di licenze per il tonno e ci sono state negate, con il pretesto che gli stock erano sovra-sfruttati. Subito dopo, abbiamo visto il governo firmare un accordo con gli europei. È uno scandalo». La Sopasen, come le altre società miste che operano al porto di Dakar, pesca prevalentemente per l’esportazione: gamberetti, pesci azzurri, polpi e varie altre specie destinate al mercato europeo, ma anche all’Asia e a paesi africani con maggiore potere d’acquisto, come la Costa d’Avorio. «Ma è il tonno quello che permetterebbe a noi industriali di fare maggiori profitti», sottolinea Lam.
+
+            </p>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+        </div>
+
+    </div>
+
+    <<!------------------------------------------------------------ video -->
+
+
+        <div class="row">
+            <div class="flex-video widescreen vimeo">
+                <iframe src="https://player.vimeo.com/video/136286298" width="500" height="280" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            </div>
+        </div>
+
+
+        <!------------------------------------------------------------  video   -->
+
+        <div class="row">
+            <div class="medium-8 medium-centered columns">
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <p>
+                    Alla direzione generale delle risorse marittime, le accuse sono rispedite al mittente. «L’accordo di pesca riguarda il tonno», ripete il direttore Mamadou Goudiaby. «Poiché il Senegal ha potenzialità di circa 14.000 tonnellate e i nostri armatori non sono in grado di pescare queste quantità, abbiamo deciso in modo indipendente di siglare l’intesa con Bruxelles». Nell’accordo UE-Senegal, si parla effettivamente di 14.000 tonnellate. Ma è solo una cifra di riferimento: nel caso in cui dovessero essere superate, il testo stabilisce il pagamento di una cifra compresa tra 50 e 70 euro a tonnellata. «È una quantità ridicola», sottolinea Lam. «Si tratta di quello che i <i>senneurs</i> possono pescare in tre settimane. Gli armatori europei sono di fatto autorizzati a depredare il nostro mare senza alcun limite».
+                    <br /> Il confronto di cifre sembra dargli ragione: se si sommano i tonnellaggi pescati dagli 8 <i>canneurs</i> europei attivi in questi ultimi anni in Senegal grazie ad accordi privati con il governo e dei 6 <i>canneurs</i> senegalesi si raggiunge già la soglia dei 14.000. L’arrivo di altre 28 navi con reti a circuizione porterà con ogni probabilità a uno sfondamento della soglia. «Stiamo svendendo una risorsa preziosa in cambio di poche noccioline», rincara la dose Fatou Niang, direttrice di Senevisa, una delle principali società di pesca senegalesi a capitale misto attive al porto di Dakar.
+
+
                 </p>
-                    <hr>
-              <br />
-                    <br />
-                    <br /><br />
-                    <br />
-              <p>  <span class="firstcharacter">I</span>ssa Fall ha l’aria affranta. «Anche oggi abbiamo preso ben poco, appena di che ripagarci la nafta». Pescatore dalla nascita e da «cinque generazioni», l’uomo esce in mare tutte le mattine alle 9 per tornare nel primo pomeriggio e vendere il pescato al mercato informale sulla spiaggia di Soumbedioune, alla periferia di Dakar. Una piccola baia sonnacchiosa che, ogni giorno dopo le 16, si anima tra uomini che scaricano casse, donne che gridano prezzi tra banchetti improvvisati, decine di avventori che tra le urla scelgono, soppesano, negoziano e comprano. Ma l’atmosfera è tutt’altro che festosa: tra le decine di pescatori che parcheggiano le piroghe si misura l’ampiezza di una crisi che da un po’ di tempo ha investito tutto il settore. I cesti sono mezzi vuoti, i visi lunghi. Finiti i fasti del passato: il mare non è più generoso come un tempo, «quando quasi si poteva pescare con le mani».<br />
-</p>
-              <br /><br /><br /><br /><br /><br /><br /><br />
-          </div>  
-      </div>
-      
-      <!------------------------------------------------------------  video   -->
-                    
-                          
-            <div class="row">
-                <div class="flex-video widescreen vimeo">
-                     <iframe src="https://player.vimeo.com/video/137066448" width="500" height="280" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                </div>
+                <br />
+                <br />
             </div>
-
-                    
-     <!------------------------------------------------------------  video   -->
-      
-      
-      <div class="row">
-           
-          <br /><br />  
-         
-          <div class="medium-8 medium-centered columns">
-            <br /><br /><br /><br /><br /><br /><br /><br />
-                    <p>
-Fall, che svolge la funzione di portavoce della sua comunità, non ha dubbi: la colpa è delle navi straniere che sono venute a pescare nelle acque senegalesi, con il placet del governo centrale.
- «Prima sono venuti i russi e gli asiatici a saccheggiarci. Ora hanno riaperto il mare agli europei». 
-<br />
-
-L’uomo è furioso contro il nuovo accordo che Dakar ha siglato con l’Unione Europea. Concluso nel novembre del 2014, prevede il rilascio di 36 licenze a 8 pescherecci con lenze a canna <i>(canneurs)</i>, 28 pescherecci con reti a circuizione <i>(senneurs)</i> che catturano prevalentemente il tonno. A questi si aggiungono due grandi navi da traino per la pesca profonda che prendono di mira il merluzzo nero. In cambio, il Senegal ottiene una «compensazione finanziaria» di 13,9 milioni di euro in totale per i cinque anni che copre l’accordo, il cui onere è ripartito tra l’Unione Europea (63%) e gli armatori (37%). 
-
- </p>
-               
-               </div>
-
-      </div>
-        
-         <!-- ---------------------------------------------------------Image Caption -->
-      <div class="row" >
-          <div class="medium-8 medium-centered columns" >
-                     <hr>
-              <img src="img/citation_01_it.jpg">       
-              <hr>       
-          </div>     
-      </div>
-        <!-- ---------------------------------------------------------Image Caption -->
-      
-      
-               
-       <div class="row">
-           <div class="medium-8 medium-centered columns">
-               <br />
-                    <p>
-Condotti per diversi mesi in un clima che molti definiscono di scarsa trasparenza, questi accordi sono al centro del dibattito in un paese in cui il 17% della popolazione attiva lavora nel settore della pesca. Gli armatori europei rispondono alle critiche dei piccoli pescatori sostenendo che, a differenza di quanto avveniva in passato, oggi non c’è alcuna competizione tra i due tipi di pesca. «Questo accordo non è male. Riguarda principalmente il tonno, che non è quasi per niente catturato dalle piroghe», sostiene David Rigat, direttore generale della società CMNP, che gestisce gli interessi di alcuni armatori europei al porto di Dakar. 
-                        <br />  
-                        Sospeso nel 2006 proprio per un sovra-sfruttamento delle risorse ittiche, l’accordo è stato riattivato sotto una forma diversa: se quello precedente dava accesso alla totalità delle specie, quello in vigore oggi riguarda soprattutto i tonni e fa parte di una serie di intese bilaterali che permettono alle navi europee di seguire il tonno tropicale lungo il suo percorso migratorio nel golfo di Guinea, dall’Angola alla Mauritania. 
-
-
-
-</p><br /><br />
-           </div>
-      </div> 
-        
-         <div class="row">
-           <div class="medium-10 medium-centered columns">
-        
-        <iframe width='100%' height='580' frameborder='0' src='https://jackottaviani.cartodb.com/viz/d78655fa-2ec3-11e5-a96b-0e853d047bba/embed_map' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
-             </div>
-             <br /><br /><br /><br /><br /><br /><br />
         </div>
-      
-       <!-- -----------------------------------------------------------------         PARALLAX -->   
-      <div class="header">
-          <div class="cont hide-for-touch">
-              <div class="parallax overlay" id="parallax-01">
-                    <q>Dobbiamo smetterla di svendere<br />le nostre materie prime</q>
-              </div>
-          </div>
-      </div>
-
- <!-- -----------------------------------------------------------------         PARALLAX -->
-      
-        <!-- -----------------------------------------------------------------         PARALLAX -->   
-      <div class="header">
-          <div class="cont show-for-touch">
-             <img src="img/ch_01_parallax.jpg">
-          </div>
-      </div>
-
- <!-- -----------------------------------------------------------------         PARALLAX -->
-      
-  
-
-       
-      
-                    <!-------------------Chapter 02---------------------------------------------------->
-    
-      
-      
-      <div class="row">
-          <br /><br /><br /><br /><br /><br />
-          <div class="medium-8 small-centered columns ">
-              <center>
-                  <hr>
-                    <h2>L'oceano conteso</h2>
-                        <br/><br/>
-                        <img src="img/ch_01_logo.jpg" width="250px">
-                        <br/><br/>
-                        
-                        <hr>
-              </center>
-          </div>
-      </div>
-
-      <div class="row">
-          <div class="medium-8 large-centered columns">
-              <br /><br /><br /><br /><br /><br />
-          </div>
-      </div>
 
 
-       <div class="row">
-           <div class="medium-8 medium-centered columns">
-                <br /><br /><br /><br />
-                <p>  <span class="firstcharacter">A</span>l molo 10 del porto di Dakar, nella sede della Sopasen, la società mista franco-senegalese che amministra, Adama Lam tuona: «Il governo si è piegato agli interessi stranieri». Vice-presidente del Gruppo degli armatori e degli industriali della pesca senegalesi (GAIPES), l’uomo parla senza mezzi termini di «neo-colonialismo». «Noi avevamo chiesto il rilascio di licenze per il tonno e ci sono state negate, con il pretesto che gli stock erano sovra-sfruttati. Subito dopo, abbiamo visto il governo firmare un accordo con gli europei. È uno scandalo». La Sopasen, come le altre società miste che operano al porto di Dakar, pesca prevalentemente per l’esportazione: gamberetti, pesci azzurri, polpi e varie altre specie destinate al mercato europeo, ma anche all’Asia e a paesi africani con maggiore potere d’acquisto, come la Costa d’Avorio. «Ma è il tonno quello che permetterebbe a noi industriali di fare maggiori profitti», sottolinea Lam. 
 
-</p>  
-               <br /><br /><br /><br /><br /><br /><br /><br />
-               </div>
 
-      </div>
-      
-      <<!------------------------------------------------------------  video   -->
-                    
-                          
-            <div class="row">
-                <div class="flex-video widescreen vimeo">
-                     <iframe src="https://player.vimeo.com/video/136286298" width="500" height="280" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                </div>
+        <!-------------------------------GRAPH 01----------------------------------------------------------------->
+
+        <div class="row">
+            <div class="medium-8 medium-centered columns">
+                <h5>Tonnellate di tonno pescato in assenza di accordo</h5>
+                <hr>
+                <p style="font-size:14px; color:#999">
+                    Negli anni in cui era inattiva l'intesa Ue-Senegal, le poche navi con lenze a canna che operavano in acque senegalesi pescavano già la quantità di tonno indicata nell'accordo. L'arrivo di 28 grandi navi europee con reti a circuizione farà aumentare notevolmente questa quantità, secondo industriali e ambientalisti.
+                </p>
             </div>
+        </div>
 
-                    
-     <!------------------------------------------------------------  video   -->
-               
-       <div class="row">
-           <div class="medium-8 medium-centered columns">
-               <br /><br /><br /><br /><br /><br /><br /><br />
-                    <p>
-Alla direzione generale delle risorse marittime, le accuse sono rispedite al mittente. «L’accordo di pesca riguarda il tonno», ripete il direttore Mamadou Goudiaby. «Poiché il Senegal ha potenzialità di circa 14.000 tonnellate e i nostri armatori non sono in grado di pescare queste quantità, abbiamo deciso in modo indipendente di siglare l’intesa con Bruxelles». Nell’accordo UE-Senegal, si parla effettivamente di 14.000 tonnellate. Ma è solo una cifra di riferimento: nel caso in cui dovessero essere superate, il testo stabilisce il pagamento di una cifra compresa tra 50 e 70 euro a tonnellata. «È una quantità ridicola», sottolinea Lam. «Si tratta di quello che i <i>senneurs</i> possono pescare in tre settimane. Gli armatori europei sono di fatto autorizzati a depredare il nostro mare senza alcun limite».
+        <div class="row">
+            <div class="medium-10 medium-centered columns">
+                <div class="large-12 columns">
+                    <div class="flex-video">
+                        <!-- -----------------------------------------------------------------------        GRAFICO  ----- -->
+                        <iframe src="//d1xmhrieqbl688.cloudfront.net/m4xRP/1/" frameborder="0" allowtransparency="true" allowfullscreen="allowfullscreen" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" oallowfullscreen="oallowfullscreen" msallowfullscreen="msallowfullscreen" width="100%" height="200"></iframe>
+                        <!-- -----------------------------------------------------------------------        GRAFICO  ----- -->
                         <br />
-                         
-                        Il confronto di cifre sembra dargli ragione: se si sommano i tonnellaggi pescati dagli 8 <i>canneurs</i> europei attivi in questi ultimi anni in Senegal grazie ad accordi privati con il governo e dei 6 <i>canneurs</i> senegalesi si raggiunge già la soglia dei 14.000. L’arrivo di altre 28 navi con reti a circuizione porterà con ogni probabilità a uno sfondamento della soglia. «Stiamo svendendo una risorsa preziosa in cambio di poche noccioline», rincara la dose Fatou Niang, direttrice di Senevisa, una delle principali società di pesca senegalesi a capitale misto attive al porto di Dakar. 
-
-
-               </p>
-               <br /><br />
-           </div>
-      </div>  
-      
-      
-      
-      
-      <!-------------------------------GRAPH 01----------------------------------------------------------------->
-      
-      <div class="row">
-           <div class="medium-8 medium-centered columns">
-               <h5>Tonnellate di tonno pescato in assenza di accordo</h5>
-               <hr>
-               <p style="font-size:14px; color:#999"> 
-                   Negli anni in cui era inattiva l'intesa Ue-Senegal, le poche navi con lenze a canna che operavano in acque senegalesi pescavano già la quantità di tonno indicata nell'accordo. L'arrivo di 28 grandi navi europee con reti a circuizione farà aumentare notevolmente questa quantità, secondo industriali e ambientalisti.
-               </p>
-          </div>
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                    </div>
+                </div>
+            </div>
         </div>
-          
-      <div class="row">
-         <div class="medium-10 medium-centered columns">
-           <div class="large-12 columns">
-               <div class="flex-video">
-                    <iframe src="https://d1xmhrieqbl688.cloudfront.net/Qx08d/1/" frameborder="0" allowtransparency="true" allowfullscreen="allowfullscreen" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" oallowfullscreen="oallowfullscreen" msallowfullscreen="msallowfullscreen" width="100%" height="200"></iframe>
-               </div>
-             </div>
-          </div>
-      </div>
-               
-      
-        <!-- -----------------------------------------------------------------         PARALLAX -->   
-      <div class="header">
-          <div class="cont hide-for-touch">
-              <div class="parallax overlay" id="parallax-02">
+
+
+        <!-- -----------------------------------------------------------------         PARALLAX -->
+        <div class="header">
+            <div class="cont hide-for-touch">
+                <div class="parallax overlay" id="parallax-02">
                     <q>L'arrivo delle navi europee porterà<br />ad un impoverimento del mare</q>
-              </div>
-          </div>
-      </div>
+                </div>
+            </div>
+        </div>
 
- <!-- -----------------------------------------------------------------         PARALLAX -->
-     <!-- -----------------------------------------------------------------         PARALLAX -->   
-      <div class="header">
-          <div class="cont show-for-touch">
-             <img src="img/ch_02_parallax.jpg">
-          </div>
-      </div>
+        <!-- -----------------------------------------------------------------         PARALLAX -->
+        <!-- -----------------------------------------------------------------         PARALLAX -->
+        <div class="header">
+            <div class="cont show-for-touch">
+                <img src="img/ch_02_parallax.jpg">
+            </div>
+        </div>
 
- <!-- -----------------------------------------------------------------         PARALLAX -->
-      
-  
-      
-      
-      
-      
-     <!-------------------Chapter 03---------------------------------------------------->
-    
-      
-      
-     <div class="row ">
-         <br /><br /><br /><br /><br /><br /> 
-         <div class="medium-8 small-centered columns "> 
-             <center>
-                 <hr>
-                 <h2>Pescatori senza reti</h2>
-                 <br/><br/>
-                 <img src="img/ch_02_logo.jpg" width="250px">
-                 <br/><br/>
+        <!-- -----------------------------------------------------------------         PARALLAX -->
 
-                 <hr>
-             </center>
-         </div>
-      </div>
 
-      <div class="row">
-          <div class="medium-8 large-centered columns">
-              <br /><br /><br /><br /><br /><br />
-          </div>
-      </div>
 
- 
 
-      
-  
-       <div class="row">
-           <div class="medium-8 medium-centered columns">
-                <br /><br /><br /><br />
-                <p>  <span class="firstcharacter">N</span>on sono solo gli industriali e i pescatori a salire sulle barricate contro l'accordo. Anche le organizzazioni ambientaliste esprimono profonda preoccupazione. «La pesca con reti a circuizione non è selettiva; porterà inevitabilmente alla cattura di altri tipi di pesce e all’impoverimento dell’eco-sistema», si inquieta Ahmed Diami, responsabile della campagna oceani di Greenpeace Africa. «Senza contare che le specie di tonno prese di mira sono a rischio di sovra-sfruttamento» 
 
-</p>
-                    <br /><br /><br /><br /><br />
-               </div>
-      </div>
-      
-      <<!------------------------------------------------------------  video   -->
-                    
-                          
+
+        <!-------------------Chapter 03---------------------------------------------------->
+
+
+
+        <div class="row ">
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <div class="medium-8 small-centered columns ">
+                <center>
+                    <hr>
+                    <h2>Pescatori senza reti</h2>
+                    <br/>
+                    <br/>
+                    <img src="img/ch_02_logo.jpg" width="250px">
+                    <br/>
+                    <br/>
+
+                    <hr>
+                </center>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="medium-8 large-centered columns">
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+            </div>
+        </div>
+
+
+
+
+
+        <div class="row">
+            <div class="medium-8 medium-centered columns">
+                <br />
+                <br />
+                <br />
+                <br />
+                <p> <span class="firstcharacter">N</span>on sono solo gli industriali e i pescatori a salire sulle barricate contro l'accordo. Anche le organizzazioni ambientaliste esprimono profonda preoccupazione. «La pesca con reti a circuizione non è selettiva; porterà inevitabilmente alla cattura di altri tipi di pesce e all’impoverimento dell’eco-sistema», si inquieta Ahmed Diami, responsabile della campagna oceani di Greenpeace Africa. «Senza contare che le specie di tonno prese di mira sono a rischio di sovra-sfruttamento»
+
+                </p>
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+            </div>
+        </div>
+
+        <<!------------------------------------------------------------ video -->
+
+
             <div class="row">
                 <div class="flex-video widescreen vimeo">
-                     <iframe src="https://player.vimeo.com/video/136286299" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                    <iframe src="https://player.vimeo.com/video/136286299" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                 </div>
             </div>
 
-                    
-     <!------------------------------------------------------------  video   -->
-      
-      <div class="row">
-          <div class="medium-8 medium-centered columns">
-                <br /><br /><br /><br /><br /><br /><br /><br />
-                <p>  Lo studio degli stock di tonno è assicurato dall’ICCAT (International Commission for the Conservation of Atlantic Tunas), che deve fare le necessarie valutazioni e definire se è il caso di imporre quote massime o stop alla pesca, come è avvenuto ad esempio con il tonno rosso del Mediterraneo. Ma sulle principali specie di tonno tropicale catturate al largo dell’Africa Occidentale – il pinne gialle e il tonno striato - l’ICCAT non ha per il momento posto limitazioni. Così gli europei possono pescare senza alcun freno. «E chi ci dice che il governo non firmerà accordi con altri stati?», si chiede Diami. «Potrà mai rispondere di no ai russi o ai cinesi se questi chiederanno delle licenze analoghe?». Girata al direttore del dipartimento di pesca, la domanda ottiene una risposta che non rassicurerebbe il responsabile di Greenpeace: «Non lo escludiamo. Valuteremo caso per caso. Noi abbiamo il dovere di valorizzare le nostre risorse», dice Goudiaby. 
-                     </p>
-               
-               </div>
 
-      </div>
-        
-         <!-- ---------------------------------------------------------Image Caption -->
-      <div class="row" >
-          <div class="medium-8 medium-centered columns" >
-                     <hr>
-              <img src="img/citation_02_it.jpg">       
-              <hr>       
-          </div>     
-      </div>
-        <!-- ---------------------------------------------------------Image Caption -->
-      
-      
-               
-       <div class="row">
-           <div class="medium-8 medium-centered columns">
-               <br />
-                    <p>
-È proprio sulla questione di valorizzare le risorse che si accendono gli animi. Molti ritengono la compensazione finanziaria troppo bassa e minime le ricadute sul settore locale. Greenpeace si domanda perché ci si è affrettati a firmare gli accordi mentre era in discussione il nuovo codice della pesca, che doveva prendere in considerazione le difficoltà dei pescatori locali. E perché è stata prevista nel testo la possibilità di prendere oltre al tonno il merluzzo nero con due pescherecci a traino. «L’inserimento di queste due navi nell’accordo è del tutto in contraddizione con il mandato della politica comune di pesca, secondo cui si devono fare accordi solo in presenza di un surplus e dell’incapacità manifesta dei pescatori locali di catturare la risorsa», sottolinea Béatrice Gorez, che a Bruxelles coordina la «Coalizione per degli accordi di pesca equi». 
+            <!------------------------------------------------------------  video   -->
 
-                    <br /><br /><br /><br />
-               </div>
-      </div>
-      
-          
-  
-      
-       
-      
-      
-     
-    
-  
-      
-     
-       <!-- -----------------------------------------------------------------         PARALLAX -->   
-      <div class="header">
-          <div class="cont hide-for-touch">
-              <div class="parallax overlay" id="parallax-04">
-                    <q>Con le tasse dei cittadini europei si favorisce <br /> il saccheggio delle risorse africane</q>
-              </div>
-          </div>
-      </div>
-
- <!-- -----------------------------------------------------------------         PARALLAX -->
-       <!-- -----------------------------------------------------------------         PARALLAX -->   
-      <div class="header">
-          <div class="cont show-for-touch">
-             <img src="img/ch_04_parallax.jpg">
-          </div>
-      </div>
-
- <!-- -----------------------------------------------------------------         PARALLAX -->
-      
-      
-        <!-------------------Chapter 04---------------------------------------------------->
-    
-      
-      
-     <div class="row">
-        <br /><br /><br /><br /><br /><br />
-         <div class="medium-8 small-centered columns ">
-             <center>
-                 <hr>
-                 <h2>Il mare in scatola</h2>
-                 <br/><br/>
-                 <img src="img/ch_03_logo.jpg" width="250px">
-                 <br/><br/>
-                 
-                 <hr>
-             </center>
-         </div>
-      </div>
-
-
-      <div class="row">
-          <div class="medium-7 large-centered columns">
-              <br /><br /><br /><br /><br /><br />
-          </div>
-      </div>
-
-       
-      <div class="row">
-          <div class="medium-8 medium-centered columns"> 
-              <br /><br /><br /><br />  
-              <p>  <span class="firstcharacter">M</span>a dove finisce tutto il tonno che viene pescato nelle acque dell’Africa Occidentale? La maggior parte è ricaricato su navi congelatrici e prende la strada della Galizia, principale regione produttrice di tonno in scatola al mondo, insieme alla Thailandia. I porti di Ribeira e di Puebla vedono ogni giorno lo scarico di tonnellate di tonni che sono portati nelle varie fabbriche sparse nella regione, dal gruppo Jealsa-Rianxeira, a Calvo, a Garavilla che poi distribuiscono in tutto il mercato europeo.  È dal 1953, quando alcuni pescatori baschi si sono avventurati su barche di legno nelle acque al largo delle coste africane, che gli spagnoli catturano i tonni tropicali. Hanno un’industria e un know how ben strutturati, che negli anni successivi hanno ulteriormente sviluppato grazie agli accordi di pesca comunitari. Nel suo ufficio di Madrid, Julio Morón, presidente di OPAGAC, gruppo che riunisce alcuni degli armatori delle navi a circuizione interessate dall’accordo, ricostruisce la storia delle campagne d’Africa dei pescherecci spagnoli e dei vari accordi che si sono susseguiti. E definisce le critiche degli industriali senegalesi pretestuose. «Il tonno è una specie migratrice, non vive nelle acque senegalesi. Ci passa e basta. Loro potrebbero pescarlo come noi, ma in questi anni senza accordo non sono stati in grado di sviluppare un’industria peschiera».
-
-                  <br /><br /><br /><br /><br />  
-              </p>
-          </div>
-      </div>
-      
-    
-   
-      <!------------------------------------------------------------  video   -->
-                    
-                          
             <div class="row">
-                <div class="flex-video widescreen vimeo">
-                     <iframe src="https://player.vimeo.com/video/137068533" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                </div>
-            </div>
-
-                    
-     <!------------------------------------------------------------  video   -->
-      
-     
-      <div class="row"> 
-          <div class="medium-8 medium-centered columns">  
-              <br /><br /><br /><br /><br /><br /><br /><br />
-              <p> Se non ci sono riusciti per mancanza di sostegno da parte dello stato, per la concorrenza degli stranieri oppure per semplice incapacità imprenditoriale, è difficile dirlo. Certo è che la presenza della flotta europea oggi non facilita tale sviluppo. Gran parte di essa è costituita da navi di grandi gruppi, che negli anni passati hanno ottenuto sussidi di vario tipo, dalla costruzione degli scafi al carburante. Se il sistema delle sovvenzioni è cambiato nella nuova politica di pesca comune, con una sensibile riduzione e una limitazione degli abusi più gravi, è indubbio che gli armatori europei abbiano avuto un aiuto non indifferente negli anni passati. Tutt’oggi lo stesso pagamento da parte di Bruxelles delle licenze di accesso alle acque senegalesi è un sussidio pubblico versato in favore di interessi privati. «Con le tasse dei cittadini europei si favorisce il saccheggio delle risorse africane da parte di grandi società», riassume Adama Lam.
-                  
-                  </p>
-                  
-              </div>
-      </div>
-      
-      <!-- ---------------------------------------------------------Image Caption -->
-      <div class="row" >
-          <div class="medium-8 medium-centered columns" >
-                     <hr>
-              <img src="img/citation_03_it.jpg">       
-              <hr>       
-          </div>     
-      </div>
-        <!-- ---------------------------------------------------------Image Caption -->
-      
-      
-      <div class="row">
-          <div class="medium-8 medium-centered columns">
-                <br /><br />
-              <p> 
-                  
-                  I piccoli pescatori osservano questo scontro tra gli industriali senegalesi e gli europei dalla battigia delle spiagge dove sono parcheggiate le loro piroghe. Il tonno in effetti non è tra le principali specie che catturano. Ma si chiedono: noi che benefici ne traiamo? Cosa ci viene in tasca da questo accordo? Secondo il testo, una parte del denaro versato dall'Unione Europea dovrebbe servire a «promuovere lo sviluppo sostenibile della pesca locale attraverso un sostegno settoriale». Loro per il momento non hanno visto nulla.<br />
-                  Potendo contare solo sulle proprie forze, Issa Fall si rimette in mare ogni mattina, insieme alle circa 21.600 piroghe registrate in Senegal. Quando vedono le grandi navi straniere in lontananza, lui e tutti gli altri pescatori non riescono a non chiedersi perché gli europei vengano a pescare proprio lì e perché nelle loro reti ci sia invece sempre meno pesce. </p>
-
- 
+                <div class="medium-8 medium-centered columns">
                     <br />
-              </div>
-      </div>
-     
-       
-    
-      
-      <div class="row">
-          <div class="medium-8 medium-centered columns">
-              <center>
-                  <p id="small-text-footer">
-                      
-                  
-                  <br /> <br /><br />
-              </center>
-          </div>
-      </div>
-     
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <p> Lo studio degli stock di tonno è assicurato dall’ICCAT (International Commission for the Conservation of Atlantic Tunas), che deve fare le necessarie valutazioni e definire se è il caso di imporre quote massime o stop alla pesca, come è avvenuto ad esempio con il tonno rosso del Mediterraneo. Ma sulle principali specie di tonno tropicale catturate al largo dell’Africa Occidentale – il pinne gialle e il tonno striato - l’ICCAT non ha per il momento posto limitazioni. Così gli europei possono pescare senza alcun freno. «E chi ci dice che il governo non firmerà accordi con altri stati?», si chiede Diami. «Potrà mai rispondere di no ai russi o ai cinesi se questi chiederanno delle licenze analoghe?». Girata al direttore del dipartimento di pesca, la domanda ottiene una risposta che non rassicurerebbe il responsabile di Greenpeace: «Non lo escludiamo. Valuteremo caso per caso. Noi abbiamo il dovere di valorizzare le nostre risorse», dice Goudiaby.
+                    </p>
 
-        
-      <footer>
-          <div class="row">
-              <div class="medium-8 medium-centered columns">
-                  <br /> <br />
-                  <center><p>Quest'inchiesta è stata realizzata grazie a The Innovation in Development Reporting Grant Programme dello European Journalism Center (EJC), finanziato dalla Bill e Melinda Gates Foundation</p></center> 
-                  <center><img src="img/footer_ejclogo.png" width="80px"></center> 
-                  <hr>
-                  </div>
-              
-                  <br /> <br />
-              <!--
+                </div>
+
+            </div>
+
+            <!-- ---------------------------------------------------------Image Caption -->
+            <div class="row">
+                <div class="medium-8 medium-centered columns">
+                    <hr>
+                    <img src="img/citation_02_it.jpg">
+                    <hr>
+                </div>
+            </div>
+            <!-- ---------------------------------------------------------Image Caption -->
+
+
+
+            <div class="row">
+                <div class="medium-8 medium-centered columns">
+                    <br />
+                    <p>
+                        È proprio sulla questione di valorizzare le risorse che si accendono gli animi. Molti ritengono la compensazione finanziaria troppo bassa e minime le ricadute sul settore locale. Greenpeace si domanda perché ci si è affrettati a firmare gli accordi mentre era in discussione il nuovo codice della pesca, che doveva prendere in considerazione le difficoltà dei pescatori locali. E perché è stata prevista nel testo la possibilità di prendere oltre al tonno il merluzzo nero con due pescherecci a traino. «L’inserimento di queste due navi nell’accordo è del tutto in contraddizione con il mandato della politica comune di pesca, secondo cui si devono fare accordi solo in presenza di un surplus e dell’incapacità manifesta dei pescatori locali di catturare la risorsa», sottolinea Béatrice Gorez, che a Bruxelles coordina la «Coalizione per degli accordi di pesca equi».
+
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+            <!-- -----------------------------------------------------------------         PARALLAX -->
+            <div class="header">
+                <div class="cont hide-for-touch">
+                    <div class="parallax overlay" id="parallax-04">
+                        <q>Con le tasse dei cittadini europei si favorisce <br /> il saccheggio delle risorse africane</q>
+                    </div>
+                </div>
+            </div>
+
+            <!-- -----------------------------------------------------------------         PARALLAX -->
+            <!-- -----------------------------------------------------------------         PARALLAX -->
+            <div class="header">
+                <div class="cont show-for-touch">
+                    <img src="img/ch_04_parallax.jpg">
+                </div>
+            </div>
+
+            <!-- -----------------------------------------------------------------         PARALLAX -->
+
+
+            <!-------------------Chapter 04---------------------------------------------------->
+
+
+
+            <div class="row">
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <div class="medium-8 small-centered columns ">
+                    <center>
+                        <hr>
+                        <h2>Il mare in scatola</h2>
+                        <br/>
+                        <br/>
+                        <img src="img/can.gif" width="250px">
+                        <br/>
+                        <br/>
+
+                        <hr>
+                    </center>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="medium-7 large-centered columns">
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="medium-8 medium-centered columns">
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <p> <span class="firstcharacter">M</span>a dove finisce tutto il tonno che viene pescato nelle acque dell’Africa Occidentale? La maggior parte è ricaricato su navi congelatrici e prende la strada della Galizia, principale regione produttrice di tonno in scatola al mondo, insieme alla Thailandia. I porti di Ribeira e di Puebla vedono ogni giorno lo scarico di tonnellate di tonni che sono portati nelle varie fabbriche sparse nella regione, dal gruppo Jealsa-Rianxeira, a Calvo, a Garavilla che poi distribuiscono in tutto il mercato europeo. È dal 1953, quando alcuni pescatori baschi si sono avventurati su barche di legno nelle acque al largo delle coste africane, che gli spagnoli catturano i tonni tropicali. Hanno un’industria e un know how ben strutturati, che negli anni successivi hanno ulteriormente sviluppato grazie agli accordi di pesca comunitari. Nel suo ufficio di Madrid, Julio Morón, presidente di OPAGAC, gruppo che riunisce alcuni degli armatori delle navi a circuizione interessate dall’accordo, ricostruisce la storia delle campagne d’Africa dei pescherecci spagnoli e dei vari accordi che si sono susseguiti. E definisce le critiche degli industriali senegalesi pretestuose. «Il tonno è una specie migratrice, non vive nelle acque senegalesi. Ci passa e basta. Loro potrebbero pescarlo come noi, ma in questi anni senza accordo non sono stati in grado di sviluppare un’industria peschiera».
+
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                    </p>
+                </div>
+            </div>
+
+
+
+            <!------------------------------------------------------------  video   -->
+
+
+            <div class="row">
+                <div class="flex-video widescreen vimeo">
+                    <iframe src="https://player.vimeo.com/video/137068533" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                </div>
+            </div>
+
+
+            <!------------------------------------------------------------  video   -->
+
+
+            <div class="row">
+                <div class="medium-8 medium-centered columns">
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <p> Se non ci sono riusciti per mancanza di sostegno da parte dello stato, per la concorrenza degli stranieri oppure per semplice incapacità imprenditoriale, è difficile dirlo. Certo è che la presenza della flotta europea oggi non facilita tale sviluppo. Gran parte di essa è costituita da navi di grandi gruppi, che negli anni passati hanno ottenuto sussidi di vario tipo, dalla costruzione degli scafi al carburante. Se il sistema delle sovvenzioni è cambiato nella nuova politica di pesca comune, con una sensibile riduzione e una limitazione degli abusi più gravi, è indubbio che gli armatori europei abbiano avuto un aiuto non indifferente negli anni passati. Tutt’oggi lo stesso pagamento da parte di Bruxelles delle licenze di accesso alle acque senegalesi è un sussidio pubblico versato in favore di interessi privati. «Con le tasse dei cittadini europei si favorisce il saccheggio delle risorse africane da parte di grandi società», riassume Adama Lam.
+
+                    </p>
+
+                </div>
+            </div>
+
+            <!-- ---------------------------------------------------------Image Caption -->
+            <div class="row">
+                <div class="medium-8 medium-centered columns">
+                    <hr>
+                    <img src="img/citation_03_it.jpg">
+                    <hr>
+                </div>
+            </div>
+            <!-- ---------------------------------------------------------Image Caption -->
+
+
+            <div class="row">
+                <div class="medium-8 medium-centered columns">
+                    <br />
+                    <br />
+                    <p>
+
+                        I piccoli pescatori osservano questo scontro tra gli industriali senegalesi e gli europei dalla battigia delle spiagge dove sono parcheggiate le loro piroghe. Il tonno in effetti non è tra le principali specie che catturano. Ma si chiedono: noi che benefici ne traiamo? Cosa ci viene in tasca da questo accordo? Secondo il testo, una parte del denaro versato dall'Unione Europea dovrebbe servire a «promuovere lo sviluppo sostenibile della pesca locale attraverso un sostegno settoriale». Loro per il momento non hanno visto nulla.
+                        <br /> Potendo contare solo sulle proprie forze, Issa Fall si rimette in mare ogni mattina, insieme alle circa 21.600 piroghe registrate in Senegal. Quando vedono le grandi navi straniere in lontananza, lui e tutti gli altri pescatori non riescono a non chiedersi perché gli europei vengano a pescare proprio lì e perché nelle loro reti ci sia invece sempre meno pesce. </p>
+
+
+                    <br />
+                </div>
+            </div>
+
+
+
+
+            <div class="row">
+                <div class="medium-8 medium-centered columns">
+                    <center>
+                        <p id="small-text-footer">
+
+
+                            <br />
+                            <br />
+                            <br />
+                    </center>
+                </div>
+            </div>
+
+
+
+            <footer>
+                <div class="row">
+                    <div class="medium-8 medium-centered columns">
+                        <br />
+                        <br />
+                        <center>
+                            <p>Quest'inchiesta è stata realizzata grazie a The Innovation in Development Reporting Grant Programme dello European Journalism Center (EJC), finanziato dalla Bill e Melinda Gates Foundation</p>
+                        </center>
+                        <center><img src="img/footer_ejclogo.png" width="80px"></center>
+                        <hr>
+                    </div>
+
+                    <br />
+                    <br />
+                    <!--
                   <div class="medium-12 medium-centered columns">
                       <center>
                      <img src="img/logo_rfi_02_w.png" width="200px"> 
@@ -675,35 +816,38 @@ Alla direzione generale delle risorse marittime, le accuse sono rispedite al mit
                       <br /> <br />
                   </div>
               -->
-          </div>
-      </footer>
-      
-      <footer id="copyright-year">
-          <div class="row">
-              <div class="medium-8 medium-centered columns">
-                  <center><p style="color:#333;">© Internazionale 2014</p></center> 
-              </div>
-          </div>
-      </footer>
-      
-  
-      
-        
-<!-- __________________________________SCRIPTS_________________ -->
-   <script src="js/videoresize.js"></script>   
-<script src="js/foundation/foundation.js"></script>
-<script src="js/foundation/foundation.reveal.js"></script>
-<script src="js/foundation/foundation.orbit.js"></script>
-<script src="js/foundation/foundation.tab.js"></script>
-      <script src="js/foundation/foundation.tab.js"></script>
-       <script src="js/foundation/foundation.magellan.js"></script>
-       <script src="js/foundation/foundation.topbar.js"></script>
-      
-    <script>
-   $(document).foundation();
-    </script>
-      
+                </div>
+            </footer>
 
-   
-  </body>
+            <footer id="copyright-year">
+                <div class="row">
+                    <div class="medium-8 medium-centered columns">
+                        <center>
+                            <p style="color:#333;">© Internazionale 2014</p>
+                        </center>
+                    </div>
+                </div>
+            </footer>
+
+
+
+
+            <!-- __________________________________SCRIPTS_________________ -->
+            <script src="js/videoresize.js"></script>
+            <script src="js/foundation/foundation.js"></script>
+            <script src="js/foundation/foundation.reveal.js"></script>
+            <script src="js/foundation/foundation.orbit.js"></script>
+            <script src="js/foundation/foundation.tab.js"></script>
+            <script src="js/foundation/foundation.tab.js"></script>
+            <script src="js/foundation/foundation.magellan.js"></script>
+            <script src="js/foundation/foundation.topbar.js"></script>
+
+            <script>
+                $(document).foundation();
+            </script>
+
+
+
+</body>
+
 </html>
