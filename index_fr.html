@@ -1,0 +1,842 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+
+    <!--[if lt IE 9]>
+  	<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
+  	<script src="//s3.amazonaws.com/nwapi/nwmatcher/nwmatcher-1.2.5-min.js"></script>
+  	<script src="//html5base.googlecode.com/svn-history/r38/trunk/js/selectivizr-1.0.3b.js"></script>
+  	<script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.1.0/respond.min.js"></script>
+	<![endif]-->
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+
+
+
+    <title>Fish for Cheap</title>
+    <meta name="Title" content="Fish for Cheap" />
+    <meta name="og:title" content="Fish for Cheap" />
+    <meta name="description" content="L’Italia è il terzo produttore mondiale di pomodori. Ogni anno migliaia di tonnellate di pomodori sono raccolti da migranti africani. I principali mercati per i pomodori italiani: Europa e Africa." />
+    <meta name="og:description" content="L’Italia è il terzo produttore mondiale di pomodori. Ogni anno migliaia di tonnellate di pomodori sono raccolti da migranti africani. I principali mercati per i pomodori italiani: Europa e Africa." />
+    <meta name="og:image" content="http://www.internazionale.it/webdoc/tomato/img/poster.jpg" />
+    <link rel="image_src" href="http://www.internazionale.it/webdoc/tomato/img/poster.jpg" />
+
+    <meta name="keywords" content="tomato,paste,italian,infestigation,journalism,grant,ejc,liberti,auvillain,ottaviani,chiaf">
+    <meta name="robots" content="index,follow">
+
+    <link rel="stylesheet" href="css/foundation.css" />
+    <script src="js/modernizr.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Quattrocento:400,700' rel='stylesheet' type='text/css'>
+    <script src="js/jquery.js"></script>
+    <script src="http://ricostacruz.com/jquery.transit/jquery.transit.js"></script>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/font/stylesheet.css">
+    <link rel="stylesheet" href="css/media-query.css">
+    <link href="video-js/video-js.css" rel="stylesheet">
+    <script src="video-js/video.js"></script>
+    <style type="text/css">
+        .vjs-default-skin .vjs-play-progress,
+        .vjs-default-skin .vjs-volume-level {
+            background-color: #6495b8
+        }
+        
+        .vjs-default-skin .vjs-control-bar {
+            font-size: 81%
+        }
+    </style>
+    <script type="text/javascript">
+        $(function() {
+            $("#tomato01").click(
+                function() {
+                    $("#block").transition({
+                        marginLeft: '5%'
+                    }, 1000);
+                });
+
+            $("#tomato02").click(
+                function() {
+                    $("#block").transition({
+                        marginLeft: '30%'
+                    }, 1000);
+                });
+
+            $("#tomato03").click(
+                function() {
+                    $("#block").transition({
+                        marginLeft: '55%'
+                    }, 1000);
+                });
+
+            $("#tomato04").click(
+                function() {
+                    $("#block").transition({
+                        marginLeft: '80%'
+                    }, 1000);
+                });
+        });
+
+
+
+        $(function() {
+            var bar = $('#headerSlideContainer');
+            var top = bar.css('top');
+            $(window).scroll(function() {
+                if ($(this).scrollTop() > 500) {
+                    bar.stop().animate({
+                        'top': '0px'
+                    }, 500);
+                } else {
+                    bar.stop().animate({
+                        'top': top
+                    }, 500);
+                }
+            });
+        });
+
+
+
+        $(function() {
+            var video = document.getElementById("video_1");
+            $(window).scroll(function() {
+                if ($(this).scrollTop() > 1 && $(this).scrollTop() < 90) {
+                    video.play();
+                }
+                if ($(this).scrollTop() > 400) {
+                    video.pause();
+                }
+            });
+        });
+
+        $(function() {
+            $(".show").click(
+                function() {
+                    $(".overlay-Big").fadeIn();
+                });
+            $("#close").click(
+                function() {
+                    $(".overlay-Big").fadeOut();
+                });
+        });
+    </script>
+
+
+</head>
+
+<body>
+    <a id="top"></a>
+    <div class="header overlay-Big">
+        <a id="close"><img src="img/overlay-close.png" width="40px"> </a>
+        <div class="overlay-first-band">
+            <div class="row">
+                <div class="medium-8 medium-centered columns">
+
+                    <a id="ref_fb" href="http://www.facebook.com/sharer/sharer.php?s=100&amp;p[url]=http://www.internazionale.it/webdoc/tomato/index.html&amp;p[images][0]=http://www.internazionale.it/webdoc/tomato/img/poster.jpg&amp;p[title]=Creating Custom share buttons: Facebook, Twitter, Google+&amp;p[summary]=Build your custom share buttons from normal images with examples on each button" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=no,scrollbars=no,height=400,width=600'); return false;">
+                        <img src="img/social_fb_w.png" width="25"> </a>
+                    <a id="ref_tw" href="http://twitter.com/home?status=Fish for Cheap. Guarda il web documentario http://www.internazionale.it/webdoc/tomato %23DarkSideTomato su @Internazionale" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=no,scrollbars=no,height=400,width=600');return false;">
+                        <img src="img/social_tw_w.png" width="25"> </a>
+
+                    <a id="ref_gp" href="https://plus.google.com/share?url=http://www.internazionale.it/webdoc/tomato/" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=no,scrollbars=no,height=400,width=600');return false;">
+
+                        <img src="img/social_gl_w.png" width="25"> </a>
+
+                    <h4 style="color:#fff">Fish for Cheap</h4>
+
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="overlay-second-band">
+            <div class="row">
+                <div class="medium-8 medium-centered columns">
+                    <p>Un'inchiesta di <a href="https://twitter.com/abutiago" target="_blank">Stefano Liberti</a> realizzata grazie a The Innovation in Development Reporting Grant Programme dello European Journalism Center (EJC), finanziato dalla Bill e Melinda Gates Foundation.
+                        <br />
+                        <br /> Fotografie e video: Mario Poeta
+                        <br /> Mappe e infografiche: <a href="https://twitter.com/jackottaviani" target="_blank"> Jacopo Ottaviani</a>
+                        <br /> Design e sviluppo: <a href="http://isaccochiaf.me" target="_blank">Isacco Chiaf</a>
+                    </p>
+
+                    <hr>
+                    <p>Si ringrazia Greenpeace per le immagini della pesca di tonno in alto mare.</p>
+                </div>
+
+                <br />
+                <!--
+                  <div class="medium-12 medium-centered columns">
+                      
+                     <div class="small-4 columns"> <img src="img/logo_int_02.png" > </div> 
+                     <div class="small-4 columns"><img src="img/logo_rfi_02.png"> </div>
+                      <div class="small-4 columns"><img src="img/logo_alj_02.png"> </div>    
+                      <br /> <br />
+                  </div>
+              -->
+            </div>
+        </div>
+    </div>
+
+    <div id="headerSlideContainer" class="target">
+        <div id="row">
+            <div id="logo-media" class="hide-for-small">
+                <a href="http://www.internazionale.it/">
+                    <!--<img src="img/logo_int_02.png" width="150px">--></a>
+            </div>
+            <div class="small-4 medium-centered columns hide-for-small">
+                <img src="img/logo_header.png" width="400px;">
+            </div>
+            <div class="small-2 columns show-for-small">
+                <img class="show" src="img/social_open.png" width="25">
+            </div>
+        </div>
+
+        <div class="hide-for-small buttons-social">
+
+
+
+            <a id="ref_fb" href="http://www.facebook.com/sharer/sharer.php?s=100&amp;p[url]=http://www.internazionale.it/webdoc/tomato/index.html&amp;p[images][0]=http://isaccochiaf.me/tomato_dark_side/img/poster.jpg&amp;p[title]=Creating Custom share buttons: Facebook, Twitter, Google+&amp;p[summary]=Investigation on Italian tomato in Africa" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=no,scrollbars=no,height=400,width=600'); return false;">
+                <img src="img/social_fb.png" onmouseover="this.src='img/social_fb_h.png';" onmouseout="this.src='img/social_fb.png';" width="25"> </a>
+            <a id="ref_tw" href="http://twitter.com/home?status=Fish for Cheap. Guarda il web documentario http://www.internazionale.it/webdoc/tomato %23DarkSideTomato su @Internazionale" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=no,scrollbars=no,height=400,width=600');return false;">
+                <img src="img/social_tw.png" onmouseover="this.src='img/social_tw_h.png';" onmouseout="this.src='img/social_tw.png';" width="25"> </a>
+
+            <a id="ref_gp" href="https://plus.google.com/share?url=http://www.internazionale.it/webdoc/tomato/" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=no,scrollbars=no,height=400,width=600');return false;">
+
+                <img src="img/social_gl.png" onmouseover="this.src='img/social_gl_h.png';" onmouseout="this.src='img/social_gl.png';" width="25"> </a>
+            <img src="img/social_ab.png" class="show" onmouseover="this.src='img/social_ab_h.png';" onmouseout="this.src='img/social_ab.png';" width="70">
+        </div>
+    </div>
+
+    <div id="row">
+        <br />
+        <br />
+        <center><img src="img/logo.jpg"></center>
+    </div>
+
+
+
+
+    <!------------------------------------------------------------  logo   -->
+
+
+    <div class="row">
+
+        <img src="img/poster.jpg">
+    </div>
+
+
+
+
+
+    <div class="row">
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <div class="medium-8 medium-centered columns">
+            <p id="small-text">Stefano Liberti
+                <br />
+            </p>
+            <p id="small-text-name">
+                <b>Fotografie e video:</b> Mario Poeta
+                <br />
+                <b>Mappe e infografiche:</b> Jacopo Ottaviani
+                <br />
+                <b>Design e sviluppo:</b> Isacco Chiaf
+
+            </p>
+            <hr>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <p> <span class="firstcharacter">I</span>ssa Fall a l'air exténué. "Aujourd'hui encore, on n'a pas attrapé grand-chose, à peine de quoi rembourser le gasoil". Pêcheur de naissance comme quatre générations avant lui, l'homme prend la mer tous les matins à 9 heures pour en revenir en début d'après-midi et vendre ses prises sur le marché informel de la plage de Soumbédioune, à la périphérie de Dakar. Une petite crique assoupie qui reprend vie tous les jours à 16 heures, lorsque les hommes déchargent les casiers, que les mareyeuses déclament les prix à tue-tête entre les étals improvisés et que les clients choisissent, soupèsent, négocient et achètent au milieu de ce tohu-bohu. Pourtant, l'ambiance n'est pas à la fête, loin de là : en voyant les pêcheurs ranger leurs pirogues, on mesure la gravité d'une crise qui s'est abattue depuis un certain temps maintenant sur le secteur tout entier. Les paniers sont à moitié vides, les visages fermés. L'époque des vaches grasses est révolue : la mer n'est plus aussi généreuse que naguère, "à l'époque où l'on pouvait quasiment pêcher avec les mains." 
+                <br />
+            </p>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+        </div>
+    </div>
+
+    <!------------------------------------------------------------  video   -->
+
+
+    <div class="row">
+        <div class="flex-video widescreen vimeo">
+            <iframe src="https://player.vimeo.com/video/136286300" width="500" height="280" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        </div>
+    </div>
+
+
+    <!------------------------------------------------------------  video   -->
+
+
+    <div class="row">
+
+        <br />
+        <br />
+
+        <div class="medium-8 medium-centered columns">
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <p>
+                Pour Issa Fall, porte-parole de sa communauté, cela ne fait aucun doute : la faute incombe aux navires étrangers qui sont venus pêcher dans les eaux sénégalaises avec l'accord du gouvernement central. "Au début, ce sont les Russes et les Asiatiques qui sont venus nous piller. Maintenant, ils ont rouvert la mer aux Européens."
+L'homme ne décolère pas contre le nouvel accord que le Sénégal a conclu avec l'Union européenne. Signé en novembre 2014, il prévoit la délivrance de 36 licences à 8 canneurs [bateaux qui pratiquent la pêche à la canne, avec des appâts vivants] et 28 senneurs [bateaux qui pratiquent la pêche à la senne, un énorme filet largué en arc de cercle autour du bateau] qui capturent essentiellement du thon. A ceux-là, il faut ajouter deux grands chalutiers pratiquant la pêche au lieu noir en eaux profondes. En contrepartie, le Sénégal reçoit une "compensation financière" totale de 13,9 millions d'euros pour les cinq années couvertes par l'accord, dont la charge est répartie entre l'Union européenne (63 %) et les armateurs (37 %).
+
+            </p>
+        </div>
+    </div>
+
+    <!-- ---------------------------------------------------------Image Caption -->
+    <div class="row">
+        <div class="medium-8 medium-centered columns">
+            <hr>
+            <img src="img/citation_01_fr.jpg">
+            <hr>
+        </div>
+    </div>
+    <!-- ---------------------------------------------------------Image Caption -->
+
+
+
+    <div class="row">
+        <div class="medium-8 medium-centered columns">
+            <br />
+            <p>
+                Fruits de plusieurs mois de négociations que beaucoup qualifient d'opaques, ces accords sont au cœur du débat dans un pays où 17 % de la population active travaille dans le secteur de la pêche. Les armateurs européens répondent aux critiques des pêcheurs locaux en rappelant que, à la différence de ce qui se produisait par le passé, il n'y a aujourd'hui aucune concurrence entre les deux types de pêche. "Cet accord va dans le bon sens. Il porte principalement sur le thon, une espèce que les pirogues ne capturent quasiment jamais", argue ainsi David Rigat, directeur général de la société CMNP, qui gère les intérêts de plusieurs armateurs européens dans le port de Dakar.<br />
+Suspendu en 2006 en raison justement d'une surexploitation des ressources halieutiques, l'accord a été réactivé sous une autre forme : là où l'ancien donnait accès à la totalité des espèces, le nouveau porte essentiellement sur le thon et s'inscrit dans une série d'accords bilatéraux qui permettent aux bateaux européens de suivre le thon tropical tout au long de sa migration dans le golfe de Guinée, de l'Angola à la Mauritanie.
+
+
+
+            </p>
+            <br />
+            <br />
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="medium-10 medium-centered columns">
+            <h5>Accordi di pesca dell'Unione Europea in Africa Occidentale</h5>
+            <hr>
+            <!-----------------------------------------------------------------------     MAPPA  -------------------- -->
+            <iframe width='100%' height='580' frameborder='0' src='https://internazionale.cartodb.com/viz/8a25f284-56e1-11e5-be3b-0e9d821ea90d/embed_map' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+            <!-----------------------------------------------------------------------     MAPPA  -------------------- -->
+        </div>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+    </div>
+
+    <!-- -----------------------------------------------------------------         PARALLAX -->
+    <div class="header">
+        <div class="cont hide-for-touch">
+            <div class="parallax overlay" id="parallax-01">
+                <q>Il faut qu'on arrête de brader<br />nos matières premières</q>
+            </div>
+        </div>
+    </div>
+
+    <!-- -----------------------------------------------------------------         PARALLAX -->
+
+    <!-- -----------------------------------------------------------------         PARALLAX -->
+    <div class="header">
+        <div class="cont show-for-touch">
+            <img src="img/ch_01_parallax.jpg">
+        </div>
+    </div>
+
+    <!-- -----------------------------------------------------------------         PARALLAX -->
+
+
+
+
+
+    <!-------------------Chapter 02---------------------------------------------------->
+
+
+
+    <div class="row">
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <div class="medium-8 small-centered columns ">
+            <center>
+                <hr>
+                <h2>L'océan contesté</h2>
+                <br/>
+                <br/>
+                <img src="img/boat.gif" width="250px">
+                <br/>
+                <br/>
+
+                <hr>
+            </center>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="medium-8 large-centered columns">
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="medium-8 medium-centered columns">
+            <br />
+            <br />
+            <br />
+            <br />
+            <p> <span class="firstcharacter">S</span>ur le quai N°10 du port de Dakar, au siège de la Sopasen, société de gestion franco-sénégalaise, Adama Lam s'emporte : "le gouvernement s'est soumis aux intérêts étrangers." Vice-président du Groupe des armateurs et industriels de la pêche au Sénégal (GAIPES), l'homme n'y va pas par quatre chemins et parle de "néo-colonialisme". "On avait demandé des licences pour le thon et elles nous ont été refusées, sous prétexte que la ressource était surexploitée. Or, juste après, on a vu le gouvernement signer un accord avec les Européens. C'est un scandale." La Sopasen, comme les autres sociétés mixtes présentes dans le port de Dakar, pêche essentiellement pour l'exportation : des crevettes, des poissons gras, des poulpes et diverses autres espèces destinées au marché européen, mais aussi à l'Asie et aux pays africains qui ont un pouvoir d'achat supérieur, comme la Côte d'Ivoire. "Or, c'est le thon qui nous permettrait à nous, transformateurs industriels, d'améliorer nos bénéfices", souligne Adama Lam.
+
+
+            </p>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+        </div>
+    </div>
+
+    <!------------------------------------------------------------ video -->
+
+
+    <div class="row">
+        <div class="flex-video widescreen vimeo">
+            <iframe src="https://player.vimeo.com/video/136286301" width="500" height="280" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <!------------------------------------------------------------  video   -->
+
+    <div class="row">
+        <div class="medium-8 medium-centered columns">
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <p>
+                La Direction générale des ressources maritimes renvoie ces accusations à leurs expéditeurs. "L'accord de pêche porte sur le thon", martèle le directeur, Mamadou Goudiaby. "Le Sénégal est autorisé à pêcher environ 14 000 tonnes. Etant donné que nos armateurs ne sont pas en mesure d'en capturer autant, nous avons décidé de manière indépendante de signer cet accord avec Bruxelles." L'accord entre l'Union européenne et le Sénégal mentionne effectivement un plafond de 14 000 tonnes. Mais ce n'est qu'un chiffre de référence : en cas de dépassement, le texte prévoit le versement d'une somme comprise entre 50 et 70 euros la tonne. "Une broutille", dénonce Adama Lam. "C'est ce que les senneurs peuvent pêcher en trois semaines. La vérité, c'est que les armateurs européens ont carte blanche pour piller les eaux sénégalaises à leur guise."<br/>
+Quelques rapides calculs semblent lui donner raison : rien qu'en additionnant les quantités de poissons pêchées par les 8 canneurs européens qui opèrent au Sénégal depuis quelques années grâce à des accords privés conclus avec le gouvernement et les volumes capturés par les 6 canneurs sénégalais, on arrive déjà à 14 000 tonnes. L'arrivée de 28 thoniers-senneurs entraînera de toute évidence un dépassement de ce seuil. "On est en train de brader une ressource précieuse pour une poignée de cacahuètes", renchérit Fatou Niang, directrice de Senevisa, une des principales sociétés de pêche sénégalaises à capital mixte présentes sur le port de Dakar.
+
+
+
+            </p>
+            <br />
+            <br />
+        </div>
+    </div>
+
+    <!-------------------------------GRAPH 01----------------------------------------------------------------->
+
+    <div class="row">
+        <div class="medium-8 medium-centered columns">
+            <h5>Quantités de thon pêchées en l'absence d'accord</h5>
+            <hr>
+            <p style="font-size:14px; color:#999">
+                Avant le nouvel accord entre Bruxelles et le Sénégal, les quelques canneurs qui sillonnaient les eaux sénégalaises capturaient déjà les 14 000 tonnes de thon prévues dans le nouveau texte. L'arrivée de 28 senneurs européens de grande capacité entraînera inévitablement un dépassement de ce seuil, pointent d'une même voix les industriels et les défenseurs de l'environnement.
+            </p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="medium-10 medium-centered columns">
+            <div class="large-12 columns">
+                <div class="flex-video">
+                    <!-- -----------------------------------------------------------------------        GRAFICO  ----- -->
+                    <iframe src="//d1xmhrieqbl688.cloudfront.net/m4xRP/1/" frameborder="0" allowtransparency="true" allowfullscreen="allowfullscreen" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" oallowfullscreen="oallowfullscreen" msallowfullscreen="msallowfullscreen" width="100%" height="200"></iframe>
+                    <!-- -----------------------------------------------------------------------        GRAFICO  ----- -->
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -----------------------------------------------------------------         PARALLAX -->
+    
+    <div class="header">
+        <div class="cont hide-for-touch">
+            <div class="parallax overlay" id="parallax-02">
+                <q>L'arrivée des bateaux européens<br />entraînera un appauvrissement de la mer</q>
+            </div>
+        </div>
+    </div>
+
+    <!-- -----------------------------------------------------------------         PARALLAX -->
+    <!-- -----------------------------------------------------------------         PARALLAX -->
+    <div class="header">
+        <div class="cont show-for-touch">
+            <img src="img/ch_02_parallax.jpg">
+        </div>
+    </div>
+
+    <!-- -----------------------------------------------------------------         PARALLAX -->
+
+
+
+
+
+
+    <!-------------------Chapter 03---------------------------------------------------->
+
+
+
+    <div class="row ">
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <div class="medium-8 small-centered columns ">
+            <center>
+                <hr>
+                <h2>Pêcheurs sans filet</h2>
+                <br/>
+                <br/>
+                <img src="img/rete.gif" width="250px">
+                <br/>
+                <br/>
+
+                <hr>
+            </center>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="medium-8 large-centered columns">
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="medium-8 medium-centered columns">
+            <br />
+            <br />
+            <br />
+            <br />
+            <p> <span class="firstcharacter">L</span>es industriels et les pêcheurs ne sont pas les seuls à monter au filet contre cet accord. Les associations de protection de l'environnement font également part de leurs vives inquiétudes. "La pêche au filet tournant n'étant pas sélective, elle entraînera inévitablement la capture d'autres espèces et donc un appauvrissement de l'écosystème", s'inquiète ainsi Ahmed Diami, responsable de la campagne Océans pour Greenpeace Afrique. "Sans compter que les espèces de thon ciblées sont menacées par la surpêche."
+            </p>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+        </div>
+    </div>
+
+    <!------------------------------------------------------------ video -->
+
+
+        <div class="row">
+            <div class="flex-video widescreen vimeo">
+                <iframe src="https://player.vimeo.com/video/136286302" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            </div>
+        </div>
+
+
+        <!------------------------------------------------------------  video   -->
+
+        <div class="row">
+            <div class="medium-8 medium-centered columns">
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <p> L'étude de l'évolution des stocks de thon est assurée par l'ICCAT (Commission internationale pour la conservation des thonidés de l'Atlantique), chargée de procéder aux évaluations nécessaires et de juger de la nécessité d'imposer ou non des quotas, voire de suspendre totalement la pêche, comme cela s'est produit par exemple pour le thon rouge de Méditerranée. Or, concernant les principales espèces de thon tropical capturées au large de l'Afrique occidentale – le thon jaune et le listao – l'ICCAT n'a fixé pour l'heure aucune limite. Ainsi, les Européens peuvent pêcher ad libitum. "Et qui nous dit que le gouvernement ne signera pas d'accords avec d'autres pays ?", demande Ahmed Diami. "Est-ce qu'il va dire non aux Russes ou aux Chinois le jour où ils se mettront à réclamer le même type de licences ?" Adressée au directeur du département de la pêche, la question obtient une réponse qui n'est pas de nature à rassurer le responsable de Greenpeace : "Ce n'est pas exclu. Nous évaluerons au cas par cas. Nous avons le devoir de valoriser nos ressources", répond Mamadou Goudiaby.
+                </p>
+
+            </div>
+
+        </div>
+
+        <!-- ---------------------------------------------------------Image Caption -->
+        <div class="row">
+            <div class="medium-8 medium-centered columns">
+                <hr>
+                <img src="img/citation_02_fr.jpg">
+                <hr>
+            </div>
+        </div>
+        <!-- ---------------------------------------------------------Image Caption -->
+
+
+
+        <div class="row">
+            <div class="medium-8 medium-centered columns">
+                <br />
+                <p>
+                    C'est justement sur la question de la valorisation des ressources que les esprits s'échauffent. Beaucoup jugent la compensation financière accordée trop basse, et les retombées sur l'industrie locale dérisoires. Greenpeace se demande bien pourquoi on s'est empressé de signer ces accords alors que le nouveau code de la pêche, qui devait prendre en considération les difficultés des pêcheurs locaux, était encore en cours de discussion. Et pourquoi le texte autorise la capture du lieu noir en plus du thon, au moyen de deux chalutiers. "L'ajout de ces deux chalutiers dans l'accord est en parfaite contradiction avec le mandat de la politique commune de la pêche, selon lequel on ne doit signer d'accord qu'en cas d'excédent et d'incapacité manifeste des pêcheurs locaux de capturer la ressource", souligne Béatrice Gorez, coordinatrice à Bruxelles de la Coalition pour des accords de pêche équitables.
+
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+            </div>
+        </div>
+
+        <!-- -----------------------------------------------------------------         PARALLAX -->
+        <div class="header">
+            <div class="cont hide-for-touch">
+                <div class="parallax overlay" id="parallax-04">
+                    <q>On favorise le pillage des ressources africaines<br />sur le dos du contribuable européen</q>
+                </div>
+            </div>
+        </div>
+
+        <!-- -----------------------------------------------------------------         PARALLAX -->
+        <!-- -----------------------------------------------------------------         PARALLAX -->
+        <div class="header">
+            <div class="cont show-for-touch">
+                <img src="img/ch_04_parallax.jpg">
+            </div>
+        </div>
+
+        <!-- -----------------------------------------------------------------         PARALLAX -->
+
+
+        <!-------------------Chapter 04---------------------------------------------------->
+
+
+
+        <div class="row">
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <div class="medium-8 small-centered columns ">
+                <center>
+                    <hr>
+                    <h2>La mer en conserve</h2>
+                    <br/>
+                    <br/>
+                    <img src="img/can.gif" width="250px">
+                    <br/>
+                    <br/>
+
+                    <hr>
+                </center>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="medium-7 large-centered columns">
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="medium-8 medium-centered columns">
+                <br />
+                <br />
+                <br />
+                <br />
+                <p> <span class="firstcharacter">M</span>ais où va tout le thon pêché dans les eaux d'Afrique occidentale ? La majeure partie est chargée sur des navires congélateurs à destination de la Galice, première région productrice de thon en conserve du monde, avec la Thaïlande. Les ports de Ribeira et de Puebla voient débarquer chaque jour plusieurs tonnes de thon qui sont acheminées dans diverses usines de la région appartenant à des groupes comme Jealsa-Rianxeira, Calvo ou Garavilla, lesquels approvisionnent ensuite l'ensemble du marché européen.
+Les Espagnols ont commencé à capturer du thon tropical en 1953, lorsqu'une poignée de pêcheurs basques se sont aventurés au large des côtes africaines sur des embarcations en bois. Ils disposaient d'une industrie bien structurée et d'un savoir-faire qu'ils ont encore développés depuis grâce aux accords de pêche communautaires. Dans son bureau de Madrid, Julio Morón, président de l'OPAGAC, fédération qui réunit quelques-uns des armateurs de senneurs concernés par l'accord, retrace l'histoire des campagnes de pêche des Espagnols en Afrique et des accords successifs qui y ont été signés. A ses yeux, les critiques avancées par les industriels sénégalais sont dénuées de fondement. "Le thon est une espèce migratrice, il ne vit pas dans les eaux sénégalaises. Il ne fait que passer. Ils pourraient très bien le pêcher comme nous, mais pendant toutes ces années où il n'y avait pas d'accord, ils n'ont pas été capables de mettre sur pied une industrie de la pêche digne de ce nom."
+
+
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                </p>
+            </div>
+        </div>
+
+
+
+        <!------------------------------------------------------------  video   -->
+
+
+        <div class="row">
+            <div class="flex-video widescreen vimeo">
+                <iframe src="https://player.vimeo.com/video/137114146" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            </div>
+        </div>
+
+
+        <!------------------------------------------------------------  video   -->
+
+
+        <div class="row">
+            <div class="medium-8 medium-centered columns">
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <p> Difficile à dire s'ils n'y sont pas parvenus par manque de soutien de l'Etat, du fait de la concurrence étrangère, ou faute de compétences entrepreneuriales suffisantes. Ce qui est sûr, c'est que l'arrivée de la flotte européenne ne facilite pas leur développement. Une grande partie de celle-ci est composée de bateaux appartenant à des grands groupes qui ont obtenu divers types de subsides ces dernières années, par exemple pour le carburant ou la construction navale. Si le mécanisme de subventions a évolué dans la nouvelle politique commune de la pêche, réduisant notablement les aides et limitant les abus les plus graves, il est incontestable que les armateurs européens ont bénéficié d'un soutien non négligeable au fil des années. Même aujourd'hui, le paiement par Bruxelles des licences qui leur permettent de pêcher dans les eaux sénégalaises est une subvention publique au bénéfice d'intérêts privés. 
+"On favorise le pillage des ressources africaines par des grands groupes sur le dos du contribuable européen", résume Adama Lam. 
+
+                </p>
+
+            </div>
+        </div>
+
+        <!-- ---------------------------------------------------------Image Caption -->
+        <div class="row">
+            <div class="medium-8 medium-centered columns">
+                <hr>
+                <img src="img/citation_03_fr.jpg">
+                <hr>
+            </div>
+        </div>
+        <!-- ---------------------------------------------------------Image Caption -->
+
+
+        <div class="row">
+            <div class="medium-8 medium-centered columns">
+                <br />
+                <br />
+                <p>
+
+                    Les petits pêcheurs suivent ces passes d'armes entre les industriels sénégalais et les Européens depuis la grève où sont alignées leurs pirogues. Certes, le thon ne fait pas partie des principales espèces qu'ils capturent. Mais cela ne les empêche pas de s'interroger : quel bénéfice allons-nous en tirer ? Quelles sont les retombées financières de cet accord pour nous ? Selon les termes du contrat, une partie des fonds versés par l'Union européenne devrait servir à "promouvoir le développement durable de la pêche locale à travers un appui sectoriel". Pour l'heure, ils n'en ont pas vu la couleur. <br />
+Ne pouvant compter que sur lui-même, Issa Fall prend la mer tous les matins, comme les quelque 21 600 pirogues enregistrées au Sénégal. Quand ils aperçoivent les gros chalutiers étrangers au loin, les autres pêcheurs et lui ne peuvent pas s'empêcher de se demander pourquoi les Européens viennent pêcher justement ici et pourquoi leurs filets à eux sont toujours moins garnis.
+ </p>
+
+
+                <br />
+            </div>
+        </div>
+
+
+
+
+        <div class="row">
+            <div class="medium-8 medium-centered columns">
+                <center>
+                    <p id="small-text-footer">
+
+
+                        <br />
+                        <br />
+                        <br />
+                </center>
+            </div>
+        </div>
+
+
+
+        <footer>
+            <div class="row">
+                <div class="medium-8 medium-centered columns">
+                    <br />
+                    <br />
+                    <center>
+                        <p>Quest'inchiesta è stata realizzata grazie a The Innovation in Development Reporting Grant Programme dello European Journalism Center (EJC), finanziato dalla Bill e Melinda Gates Foundation</p>
+                    </center>
+                    <center><img src="img/footer_ejclogo.png" width="80px"></center>
+                    <hr>
+                </div>
+
+                <br />
+                <br />
+                <!--
+                  <div class="medium-12 medium-centered columns">
+                      <center>
+                     <img src="img/logo_rfi_02_w.png" width="200px"> 
+                      <img src="img/logo_alj_02_w.png" width="200px"> 
+                      <img src="img/logo_int_02_w.png" width="200px">
+                          </center>
+                      <br /> <br />
+                  </div>
+              -->
+            </div>
+        </footer>
+
+        <footer id="copyright-year">
+            <div class="row">
+                <div class="medium-8 medium-centered columns">
+                    <center>
+                        <p style="color:#333;">© Internazionale 2014</p>
+                    </center>
+                </div>
+            </div>
+        </footer>
+
+
+
+
+        <!-- __________________________________SCRIPTS_________________ -->
+        <script src="js/videoresize.js"></script>
+        <script src="js/foundation/foundation.js"></script>
+        <script src="js/foundation/foundation.reveal.js"></script>
+        <script src="js/foundation/foundation.orbit.js"></script>
+        <script src="js/foundation/foundation.tab.js"></script>
+        <script src="js/foundation/foundation.tab.js"></script>
+        <script src="js/foundation/foundation.magellan.js"></script>
+        <script src="js/foundation/foundation.topbar.js"></script>
+
+        <script>
+            $(document).foundation();
+        </script>
+
+
+
+</body>
+
+</html>
