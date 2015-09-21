@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+ 
+<script src="http://api.tiles.mapbox.com/mapbox.js/v1.5.2/mapbox.js"></script>
+<link href="http://api.tiles.mapbox.com/mapbox.js/v1.5.2/mapbox.css" rel="stylesheet">
+<style>
+#map {
+  width: 100%;
+  height: 600px;
+}
+</style>
+ 
+  <meta charset="utf-8">
+  <title>map.</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+  <!-- HTML5 Shim for IE -->
+  <!--[if IE]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+ 
+  <script src="http//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+</head>
+ 
+<body id="top">
+<div style="background-color: white;margin-left:auto;margin-right:auto; width:805px; border:1px solid lightgrey; padding:13px; margin-top:20px">
+<div id="map" class="leaflet-container leaflet-fade-anim" tabindex="0" style="position: relative;"><div class="leaflet-map-pane" style="-webkit-transform: translate3d(0px, 0px, 0);"><div class="leaflet-tile-pane"><div class="leaflet-layer"><div class="leaflet-tile-container"></div><div class="leaflet-tile-container leaflet-zoom-animated"><img class="leaflet-tile leaflet-tile-loaded" src="http://c.tiles.mapbox.com/v3/distant.goc6plnk/4/8/6.png" style="height: 256px; width: 256px; left: 282px; top: 98px;"><img class="leaflet-tile leaflet-tile-loaded" src="http://d.tiles.mapbox.com/v3/distant.goc6plnk/4/8/7.png" style="height: 256px; width: 256px; left: 282px; top: 354px;"><img class="leaflet-tile leaflet-tile-loaded" src="http://b.tiles.mapbox.com/v3/distant.goc6plnk/4/7/6.png" style="height: 256px; width: 256px; left: 26px; top: 98px;"><img class="leaflet-tile leaflet-tile-loaded" src="http://b.tiles.mapbox.com/v3/distant.goc6plnk/4/8/5.png" style="height: 256px; width: 256px; left: 282px; top: -158px;"><img class="leaflet-tile leaflet-tile-loaded" src="http://d.tiles.mapbox.com/v3/distant.goc6plnk/4/9/6.png" style="height: 256px; width: 256px; left: 538px; top: 98px;"><img class="leaflet-tile leaflet-tile-loaded" src="http://a.tiles.mapbox.com/v3/distant.goc6plnk/4/9/7.png" style="height: 256px; width: 256px; left: 538px; top: 354px;"><img class="leaflet-tile leaflet-tile-loaded" src="http://c.tiles.mapbox.com/v3/distant.goc6plnk/4/9/5.png" style="height: 256px; width: 256px; left: 538px; top: -158px;"><img class="leaflet-tile leaflet-tile-loaded" src="http://c.tiles.mapbox.com/v3/distant.goc6plnk/4/7/7.png" style="height: 256px; width: 256px; left: 26px; top: 354px;"><img class="leaflet-tile leaflet-tile-loaded" src="http://a.tiles.mapbox.com/v3/distant.goc6plnk/4/7/5.png" style="height: 256px; width: 256px; left: 26px; top: -158px;"><img class="leaflet-tile leaflet-tile-loaded" src="http://a.tiles.mapbox.com/v3/distant.goc6plnk/4/10/6.png" style="height: 256px; width: 256px; left: 794px; top: 98px;"><img class="leaflet-tile leaflet-tile-loaded" src="http://a.tiles.mapbox.com/v3/distant.goc6plnk/4/6/6.png" style="height: 256px; width: 256px; left: -230px; top: 98px;"><img class="leaflet-tile leaflet-tile-loaded" src="http://d.tiles.mapbox.com/v3/distant.goc6plnk/4/10/5.png" style="height: 256px; width: 256px; left: 794px; top: -158px;"><img class="leaflet-tile leaflet-tile-loaded" src="http://d.tiles.mapbox.com/v3/distant.goc6plnk/4/6/5.png" style="height: 256px; width: 256px; left: -230px; top: -158px;"><img class="leaflet-tile leaflet-tile-loaded" src="http://b.tiles.mapbox.com/v3/distant.goc6plnk/4/6/7.png" style="height: 256px; width: 256px; left: -230px; top: 354px;"><img class="leaflet-tile leaflet-tile-loaded" src="http://b.tiles.mapbox.com/v3/distant.goc6plnk/4/10/7.png" style="height: 256px; width: 256px; left: 794px; top: 354px;"></div></div></div><div class="leaflet-objects-pane"><div class="leaflet-shadow-pane"><img src="//api.tiles.mapbox.com/mapbox.js/v1.5.1/images/marker-shadow.png" class="leaflet-marker-shadow leaflet-zoom-animated" style="margin-left: -12px; margin-top: -41px; width: 41px; height: 41px; -webkit-transform: translate3d(449px, 102px, 0);"><img src="//api.tiles.mapbox.com/mapbox.js/v1.5.1/images/marker-shadow.png" class="leaflet-marker-shadow leaflet-zoom-animated" style="margin-left: -12px; margin-top: -41px; width: 41px; height: 41px; -webkit-transform: translate3d(280px, 546px, 0);"></div><div class="leaflet-overlay-pane"></div><div class="leaflet-marker-pane"><img src="//api.tiles.mapbox.com/mapbox.js/v1.5.1/images/marker-icon.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-clickable" tabindex="0" style="margin-left: -12px; margin-top: -41px; width: 25px; height: 41px; -webkit-transform: translate3d(449px, 102px, 0); z-index: 102;"><img src="//api.tiles.mapbox.com/mapbox.js/v1.5.1/images/marker-icon.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-clickable" tabindex="0" style="margin-left: -12px; margin-top: -41px; width: 25px; height: 41px; -webkit-transform: translate3d(280px, 546px, 0); z-index: 546;"></div><div class="leaflet-popup-pane"></div></div></div><div class="leaflet-control-container"><div class="leaflet-top leaflet-left"></div><div class="leaflet-top leaflet-right"><div class="leaflet-control-grid map-tooltip leaflet-control" style="display: none;"><a class="close" href="#" title="close">close</a><div class="map-tooltip-content"></div></div></div><div class="leaflet-bottom leaflet-left"></div><div class="leaflet-bottom leaflet-right"><div class="map-legends wax-legends leaflet-control" style="display: none;"></div><div class="mapbox-control-info mapbox-small mapbox-control-info-right leaflet-control" style="display: block;"><div class="map-info-container"><a href="http://mapbox.com/about/maps" target="_blank">Terms &amp; Feedback</a></div><a class="mapbox-info-toggle mapbox-icon mapbox-icon-info" href="#"></a></div></div></div></div>
+<script>
+ 
+function onEachFeature(feature, layer) {
+    // does this feature have a property named popupContent?
+    if (feature.properties && feature.properties.popupContent) {
+        layer.bindPopup(feature.properties.popupContent);
+    }
+}
+ 
+ 
+
+ var geojson = [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.63958,40.74325]
+      },
+      "properties": {
+        "title": "MapBox DC",
+        "popupContent": "<a class='scroll' href='#campania'>Campania</a>",
+        "marker-color": "#fc4353",
+        "marker-size": "small",
+        "marker-symbol": "monument"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-0.19897,5.58108]
+      },
+      "properties": {
+        "title": "MapBox SF",
+        "popupContent": "<a class='scroll' href='#ghana'>Ghana</a>",
+        "marker-color": "#fc4353",
+        "marker-size": "small",
+        "marker-symbol": "harbor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.58,41.67]
+      },
+      "properties": {
+        "title": "MapBox SF",
+        "popupContent": "<a class='scroll' href='#puglia'>Puglia</a>",
+        "marker-color": "#fc4353",
+        "marker-size": "small",
+        "marker-symbol": "harbor"
+      }
+    }
+  ];
+
+ 
+  var map = L.mapbox.map('map', 'distant.goc6plnk', {zoomControl: false});
+ 
+    map.setView([26.27371402440643, 10.590820312499998], 4);
+    map.dragging.disable();
+    map.touchZoom.disable();
+    map.doubleClickZoom.disable();
+    map.scrollWheelZoom.disable();
+ 
+  L.geoJson(geojson, {
+    pointToLayer: function (feature, latlng) {
+      marker = L.marker(latlng);
+      marker.desc = feature.properties.popupContent;
+      marker.bindPopup(marker.desc);
+      marker.addTo(map); 
+      return marker;
+    }
+  });
+ 
+  $('div.leaflet-popup-pane').on('click', 'a.scroll', function() {
+    event.preventDefault();
+    $('html,body').animate({scrollTop:$(this.hash).offset().top}, 500);
+  });
+</script>
+ 
+ 
+<a class="scroll" href="#campania">Anchor Link</a>
+ 
+<div><h1><span id="puglia">CAPITOLO 1 - PUGLIA</span></h1></div>
+<div><a class="scroll" href="#ghana">Lorem ipsum</a> dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.""Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.""Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.""Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.""Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.""Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.""Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.""Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.""Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</div>
+<div><h1><span id="campania">CAPITOLO 2 - CAMPANIA</span></h1></div>
+<div>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.""Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.""Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.""Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.""Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.""Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.""Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.""Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.""Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</div>
+<div><h1><span id="ghana">CAPITOLO 3 - GHANA</span></h1></div>
+<div>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.""Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.""Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.""Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.""Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.""Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.""Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.""Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.""Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</div>
+ 
+ 
+ 
+</div>
+ 
+  <!-- Javascript -->
+  <script src="smooth-scroll.js"></script>
+ 
+ 
+</body></html>

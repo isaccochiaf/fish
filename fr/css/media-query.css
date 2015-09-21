@@ -1,0 +1,189 @@
+@media only screen { } 
+
+
+/* Define mobile styles */
+
+@media only screen and (max-width: 40em) { 
+    
+    
+    
+    .img-quote{
+        font-size:90%;
+        line-height:26px;
+        text-align:center;
+    }
+   
+    .image-circle{
+        padding:50px;
+    }
+    .tabs dd a.tabs_a {
+      width:50px;
+    height:50px;
+    background-image:url(../img/t_tomato_hover_s.jpg);
+    background-repeat:no-repeat;
+   
+}
+ .tabs dd.active a.tabs_a{
+      width:50px;
+    height:50px;
+    background-image:url(../img/t_tomato_s.jpg);
+    background-repeat:no-repeat;
+    
+}
+
+.tabs dd a.tabs_b {
+     width:50px;
+    height:50px;
+    background-image:url(../img/t_can_hover_s.jpg);
+    background-repeat:no-repeat;
+    
+}
+ .tabs dd.active a.tabs_b {
+     width:50px;
+    height:50px;
+    background-image:url(../img/t_can_s.jpg);
+    background-repeat:no-repeat;
+   
+}
+
+.tabs dd a.tabs_c {
+     width:50px;
+    height:50px;
+    background-image:url(../img/t_market_hover_s.jpg);
+    background-repeat:no-repeat;
+    
+}
+ .tabs dd.active a.tabs_c {
+     width:50px;
+    height:50px;
+    background-image:url(../img/t_market_s.jpg);
+    background-repeat:no-repeat;
+    
+}
+
+.tabs dd a.tabs_d {
+    width:50px;
+    height:50px;
+    background-image:url(../img/t_hand_hover_s.jpg);
+    background-repeat:no-repeat;
+    
+}
+ .tabs dd.active a.tabs_d {
+   width:50px;
+    height:50px;
+    background-image:url(../img/t_hand_s.jpg);
+    background-repeat:no-repeat;
+        
+        
+    
+}
+    #block{
+	display:none;
+}
+} 
+
+/* max-width 640px, mobile-only styles, use when QAing mobile issues */
+
+/* Medium screens */
+@media only screen and (min-width: 40.063em) { 
+
+
+
+} 
+
+
+/* min-width 641px, medium screens */
+
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+   
+    
+.img-quote{
+        font-size:100%;
+        line-height:26px;
+    }
+
+    #buttonbar{ margin-top:-50px;
+font-family:archive;
+color:#999}
+    
+    
+    .tabs dd a.tabs_a {
+     width:110px;
+    height:110px;
+    background-image:url(../img/t_tomato_hover_m.jpg);
+    background-repeat:no-repeat;
+   
+}
+ .tabs dd.active a.tabs_a{
+     width:110px;
+    height:110px;
+    background-image:url(../img/t_tomato_m.jpg);
+    background-repeat:no-repeat;
+    
+}
+
+.tabs dd a.tabs_b {
+     width:110px;
+    height:110px;
+    background-image:url(../img/t_can_hover_m.jpg);
+    background-repeat:no-repeat;
+    
+}
+ .tabs dd.active a.tabs_b {
+     width:110px;
+    height:110px;
+    background-image:url(../img/t_can_m.jpg);
+    background-repeat:no-repeat;
+   
+}
+
+.tabs dd a.tabs_c {
+     width:110px;
+    height:110px;
+    background-image:url(../img/t_market_hover_m.jpg);
+    background-repeat:no-repeat;
+    
+}
+ .tabs dd.active a.tabs_c {
+     width:110px;
+    height:110px;
+    background-image:url(../img/t_market_m.jpg);
+    background-repeat:no-repeat;
+    
+}
+
+.tabs dd a.tabs_d {
+    width:110px;
+    height:110px;
+    background-image:url(../img/t_hand_hover_m.jpg);
+    background-repeat:no-repeat;
+    
+}
+ .tabs dd.active a.tabs_d {
+    width:110px;
+    height:110px;
+    background-image:url(../img/t_hand_m.jpg);
+    background-repeat:no-repeat;
+        
+        
+    
+}
+    #block{
+	display:none;
+}
+    
+    
+} /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
+
+// Large screens
+@media only screen and (min-width: 64.063em) { } /* min-width 1025px, large screens */
+
+@media only screen and (min-width: 64.063em) and (max-width: 90em) { } /* min-width 1025px and max-width 1440px, use when QAing large screen-only issues */
+
+// XLarge screens
+@media only screen and (min-width: 90.063em) { } /* min-width 1441px, xlarge screens */
+
+@media only screen and (min-width: 90.063em) and (max-width: 120em) { } /* min-width 1441px and max-width 1920px, use when QAing xlarge screen-only issues */
+
+// XXLarge screens
+@media only screen and (min-width: 120.063em) { } /* min-width 1921px, xlarge screens */
